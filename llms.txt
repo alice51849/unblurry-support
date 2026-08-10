@@ -9,6 +9,7 @@
 
 ## Support
 
+- [Help, FAQ and troubleshooting](https://alice51849.github.io/unblurry-support/help.html)
 - [Official support site](https://alice51849.github.io/unblurry-support/)
 - [Privacy policy](https://alice51849.github.io/unblurry-support/privacy.html)
 - [Support and FAQ](https://alice51849.github.io/unblurry-support/support.html)
