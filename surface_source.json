@@ -1,0 +1,681 @@
+{
+  "app": {
+    "app_store_get_status": "200",
+    "app_store_id": "6782275018",
+    "kids": false,
+    "monetization": "free with optional one-time unlock",
+    "name": "Unblurry Pro: Unblur & HD"
+  },
+  "authority_anchors": {
+    "index": [
+      "Reduce blur",
+      "original photo safe"
+    ],
+    "privacy": [
+      "Apple imaging frameworks",
+      "full-quality output"
+    ]
+  },
+  "authority_sources": [
+    "00_Standards/localization.md",
+    "00_Standards/kids-compliance.md",
+    "00_Standards/app-requirements.md",
+    "authoritative-session/support_surface_contract.json",
+    "authoritative-session/crosspromo_config.json"
+  ],
+  "base_url": "https://alice51849.github.io/unblurry-support/",
+  "content": {
+    "en-AU": {
+      "index": {
+        "app_name": "Unblurry Pro: Unblur & HD",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe.",
+        "eyebrow": "Official support site",
+        "heading": "Unblurry Pro: Unblur & HD",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe.",
+        "sections": [
+          [
+            "What the app does",
+            "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe."
+          ],
+          [
+            "Data and privacy",
+            "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server."
+          ],
+          [
+            "Purchase",
+            "Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase."
+          ]
+        ],
+        "title": "Unblurry Pro: Unblur & HD — Official support site"
+      },
+      "privacy": {
+        "app_name": "Unblurry Pro: Unblur & HD",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server. Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase.",
+        "eyebrow": "Privacy",
+        "heading": "Unblurry Pro: Unblur & HD · Privacy",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server.",
+        "sections": [
+          [
+            "Data and privacy",
+            "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server."
+          ],
+          [
+            "Accounts, ads and tracking",
+            "No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Privacy — Unblurry Pro: Unblur & HD"
+      },
+      "support": {
+        "app_name": "Unblurry Pro: Unblur & HD",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support. Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server.",
+        "eyebrow": "Support",
+        "heading": "Unblurry Pro: Unblur & HD · Support",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support.",
+        "sections": [
+          [
+            "What the app does",
+            "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe."
+          ],
+          [
+            "Troubleshooting",
+            "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support."
+          ],
+          [
+            "Data and privacy",
+            "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server. No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Support — Unblurry Pro: Unblur & HD"
+      }
+    },
+    "en-CA": {
+      "index": {
+        "app_name": "Unblurry Pro: Unblur & HD",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe.",
+        "eyebrow": "Official support site",
+        "heading": "Unblurry Pro: Unblur & HD",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe.",
+        "sections": [
+          [
+            "What the app does",
+            "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe."
+          ],
+          [
+            "Data and privacy",
+            "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server."
+          ],
+          [
+            "Purchase",
+            "Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase."
+          ]
+        ],
+        "title": "Unblurry Pro: Unblur & HD — Official support site"
+      },
+      "privacy": {
+        "app_name": "Unblurry Pro: Unblur & HD",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server. Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase.",
+        "eyebrow": "Privacy",
+        "heading": "Unblurry Pro: Unblur & HD · Privacy",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server.",
+        "sections": [
+          [
+            "Data and privacy",
+            "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server."
+          ],
+          [
+            "Accounts, ads and tracking",
+            "No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Privacy — Unblurry Pro: Unblur & HD"
+      },
+      "support": {
+        "app_name": "Unblurry Pro: Unblur & HD",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support. Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server.",
+        "eyebrow": "Support",
+        "heading": "Unblurry Pro: Unblur & HD · Support",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support.",
+        "sections": [
+          [
+            "What the app does",
+            "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe."
+          ],
+          [
+            "Troubleshooting",
+            "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support."
+          ],
+          [
+            "Data and privacy",
+            "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server. No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Support — Unblurry Pro: Unblur & HD"
+      }
+    },
+    "en-GB": {
+      "index": {
+        "app_name": "Unblurry Pro: Unblur & HD",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe.",
+        "eyebrow": "Official support site",
+        "heading": "Unblurry Pro: Unblur & HD",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe.",
+        "sections": [
+          [
+            "What the app does",
+            "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe."
+          ],
+          [
+            "Data and privacy",
+            "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server."
+          ],
+          [
+            "Purchase",
+            "Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase."
+          ]
+        ],
+        "title": "Unblurry Pro: Unblur & HD — Official support site"
+      },
+      "privacy": {
+        "app_name": "Unblurry Pro: Unblur & HD",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server. Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase.",
+        "eyebrow": "Privacy",
+        "heading": "Unblurry Pro: Unblur & HD · Privacy",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server.",
+        "sections": [
+          [
+            "Data and privacy",
+            "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server."
+          ],
+          [
+            "Accounts, ads and tracking",
+            "No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Privacy — Unblurry Pro: Unblur & HD"
+      },
+      "support": {
+        "app_name": "Unblurry Pro: Unblur & HD",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support. Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server.",
+        "eyebrow": "Support",
+        "heading": "Unblurry Pro: Unblur & HD · Support",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support.",
+        "sections": [
+          [
+            "What the app does",
+            "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe."
+          ],
+          [
+            "Troubleshooting",
+            "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support."
+          ],
+          [
+            "Data and privacy",
+            "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server. No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Support — Unblurry Pro: Unblur & HD"
+      }
+    },
+    "en-US": {
+      "index": {
+        "app_name": "Unblurry Pro: Unblur & HD",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe.",
+        "eyebrow": "Official support site",
+        "heading": "Unblurry Pro: Unblur & HD",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe.",
+        "sections": [
+          [
+            "What the app does",
+            "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe."
+          ],
+          [
+            "Data and privacy",
+            "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server."
+          ],
+          [
+            "Purchase",
+            "Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase."
+          ]
+        ],
+        "title": "Unblurry Pro: Unblur & HD — Official support site"
+      },
+      "privacy": {
+        "app_name": "Unblurry Pro: Unblur & HD",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server. Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase.",
+        "eyebrow": "Privacy",
+        "heading": "Unblurry Pro: Unblur & HD · Privacy",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server.",
+        "sections": [
+          [
+            "Data and privacy",
+            "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server."
+          ],
+          [
+            "Accounts, ads and tracking",
+            "No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Privacy — Unblurry Pro: Unblur & HD"
+      },
+      "support": {
+        "app_name": "Unblurry Pro: Unblur & HD",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support. Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server.",
+        "eyebrow": "Support",
+        "heading": "Unblurry Pro: Unblur & HD · Support",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support.",
+        "sections": [
+          [
+            "What the app does",
+            "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe."
+          ],
+          [
+            "Troubleshooting",
+            "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support."
+          ],
+          [
+            "Data and privacy",
+            "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server. No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Support — Unblurry Pro: Unblur & HD"
+      }
+    },
+    "or-IN": {
+      "index": {
+        "app_name": "Unblurry Pro: ଫଟୋ ସ୍ପଷ୍ଟ କରନ୍ତୁ",
+        "contact": "ସହାୟତା ପାଇଁ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଏବଂ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ପଠାନ୍ତୁ।",
+        "description": "ଧୁସରତା କମାନ୍ତୁ, ବିବରଣୀ ସୁଧାରନ୍ତୁ, ପୂର୍ବଦର୍ଶନ ତୁଳନା କରନ୍ତୁ ଏବଂ ମୂଳ ଫଟୋ ସୁରକ୍ଷିତ ରଖି ଫଳାଫଳ ସେଭ କରନ୍ତୁ।",
+        "eyebrow": "ଆଧିକାରିକ ସହାୟତା ସାଇଟ୍",
+        "heading": "Unblurry Pro: ଫଟୋ ସ୍ପଷ୍ଟ କରନ୍ତୁ",
+        "labels": {
+          "app_store": "App Storeରେ ଦେଖନ୍ତୁ",
+          "contact": "ଯୋଗାଯୋଗ",
+          "home": "ମୁଖ୍ୟ ପୃଷ୍ଠା",
+          "language": "ଭାଷା",
+          "privacy": "ଗୋପନୀୟତା",
+          "support": "ସହାୟତା"
+        },
+        "lead": "ଧୁସରତା କମାନ୍ତୁ, ବିବରଣୀ ସୁଧାରନ୍ତୁ, ପୂର୍ବଦର୍ଶନ ତୁଳନା କରନ୍ତୁ ଏବଂ ମୂଳ ଫଟୋ ସୁରକ୍ଷିତ ରଖି ଫଳାଫଳ ସେଭ କରନ୍ତୁ।",
+        "sections": [
+          [
+            "Appଟି କଣ କରେ",
+            "ଧୁସରତା କମାନ୍ତୁ, ବିବରଣୀ ସୁଧାରନ୍ତୁ, ପୂର୍ବଦର୍ଶନ ତୁଳନା କରନ୍ତୁ ଏବଂ ମୂଳ ଫଟୋ ସୁରକ୍ଷିତ ରଖି ଫଳାଫଳ ସେଭ କରନ୍ତୁ।"
+          ],
+          [
+            "ତଥ୍ୟ ଓ ଗୋପନୀୟତା",
+            "ଚୟନିତ ଫଟୋ Apple imaging framework ଓ bundle ହୋଇଥିବା enhancement model ଦ୍ୱାରା ଡିଭାଇସରେ ପ୍ରକ୍ରିୟା ହୁଏ। Unblurry ଆପଣଙ୍କ ଫଟୋ ବିକାଶକର୍ତ୍ତାଙ୍କ serverକୁ upload କରେ ନାହିଁ।"
+          ],
+          [
+            "କ୍ରୟ",
+            "କ୍ରୟ ପୂର୍ବରୁ ପୂର୍ବଦର୍ଶନ ମିଳେ। ମାଗଣା ସେଭରେ ସ୍ପଷ୍ଟ କରାଯାଇଥିବା ଗୁଣମାନ ସୀମା ରହେ; ଇଚ୍ଛାଧୀନ ଏକମାତ୍ର କ୍ରୟ full-quality output ଖୋଲେ ଏବଂ କ୍ରୟ Apple ପରିଚାଳନା କରେ।"
+          ]
+        ],
+        "title": "Unblurry Pro: ଫଟୋ ସ୍ପଷ୍ଟ କରନ୍ତୁ — ଆଧିକାରିକ ସହାୟତା ସାଇଟ୍"
+      },
+      "privacy": {
+        "app_name": "Unblurry Pro: ଫଟୋ ସ୍ପଷ୍ଟ କରନ୍ତୁ",
+        "contact": "ସହାୟତା ପାଇଁ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଏବଂ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ପଠାନ୍ତୁ।",
+        "description": "ଚୟନିତ ଫଟୋ Apple imaging framework ଓ bundle ହୋଇଥିବା enhancement model ଦ୍ୱାରା ଡିଭାଇସରେ ପ୍ରକ୍ରିୟା ହୁଏ। Unblurry ଆପଣଙ୍କ ଫଟୋ ବିକାଶକର୍ତ୍ତାଙ୍କ serverକୁ upload କରେ ନାହିଁ। କ୍ରୟ ପୂର୍ବରୁ ପୂର୍ବଦର୍ଶନ ମିଳେ। ମାଗଣା ସେଭରେ ସ୍ପଷ୍ଟ କରାଯାଇଥିବା ଗୁଣମାନ ସୀମା ରହେ; ଇଚ୍ଛାଧୀନ ଏକମାତ୍ର କ୍ରୟ full-quality output ଖୋଲେ ଏବଂ କ୍ରୟ Apple ପରିଚାଳନା କରେ।",
+        "eyebrow": "ଗୋପନୀୟତା",
+        "heading": "Unblurry Pro: ଫଟୋ ସ୍ପଷ୍ଟ କରନ୍ତୁ · ଗୋପନୀୟତା",
+        "labels": {
+          "app_store": "App Storeରେ ଦେଖନ୍ତୁ",
+          "contact": "ଯୋଗାଯୋଗ",
+          "home": "ମୁଖ୍ୟ ପୃଷ୍ଠା",
+          "language": "ଭାଷା",
+          "privacy": "ଗୋପନୀୟତା",
+          "support": "ସହାୟତା"
+        },
+        "lead": "ଚୟନିତ ଫଟୋ Apple imaging framework ଓ bundle ହୋଇଥିବା enhancement model ଦ୍ୱାରା ଡିଭାଇସରେ ପ୍ରକ୍ରିୟା ହୁଏ। Unblurry ଆପଣଙ୍କ ଫଟୋ ବିକାଶକର୍ତ୍ତାଙ୍କ serverକୁ upload କରେ ନାହିଁ।",
+        "sections": [
+          [
+            "ତଥ୍ୟ ଓ ଗୋପନୀୟତା",
+            "ଚୟନିତ ଫଟୋ Apple imaging framework ଓ bundle ହୋଇଥିବା enhancement model ଦ୍ୱାରା ଡିଭାଇସରେ ପ୍ରକ୍ରିୟା ହୁଏ। Unblurry ଆପଣଙ୍କ ଫଟୋ ବିକାଶକର୍ତ୍ତାଙ୍କ serverକୁ upload କରେ ନାହିଁ।"
+          ],
+          [
+            "ଆକାଉଣ୍ଟ, ବିଜ୍ଞାପନ ଓ ଟ୍ରାକିଂ",
+            "କୌଣସି ଆକାଉଣ୍ଟ ଦରକାର ନାହିଁ। Appରେ ତୃତୀୟ-ପକ୍ଷ ବିଜ୍ଞାପନ, App ମଧ୍ୟରେ ଟ୍ରାକିଂ କିମ୍ବା ତୃତୀୟ-ପକ୍ଷ ବିଶ୍ଳେଷଣ ନାହିଁ।"
+          ],
+          [
+            "କ୍ରୟ",
+            "କ୍ରୟ ପୂର୍ବରୁ ପୂର୍ବଦର୍ଶନ ମିଳେ। ମାଗଣା ସେଭରେ ସ୍ପଷ୍ଟ କରାଯାଇଥିବା ଗୁଣମାନ ସୀମା ରହେ; ଇଚ୍ଛାଧୀନ ଏକମାତ୍ର କ୍ରୟ full-quality output ଖୋଲେ ଏବଂ କ୍ରୟ Apple ପରିଚାଳନା କରେ।"
+          ],
+          [
+            "ତଥ୍ୟ ବିଲୋପ ଓ ପୁନରୁଦ୍ଧାର",
+            "Appରେ ବିଲୋପ ବିକଳ୍ପ ଥିଲେ ସେଠାରୁ ରେକର୍ଡ ବିଲୋପ କରନ୍ତୁ। App ବିଲୋପ କଲେ ସ୍ଥାନୀୟ container ହଟିଯାଏ; Apple ପରିଚାଳିତ backup ଆପଣଙ୍କ ଡିଭାଇସ ସେଟିଂ ଅନୁସରେ ରହେ।"
+          ]
+        ],
+        "title": "ଗୋପନୀୟତା — Unblurry Pro: ଫଟୋ ସ୍ପଷ୍ଟ କରନ୍ତୁ"
+      },
+      "support": {
+        "app_name": "Unblurry Pro: ଫଟୋ ସ୍ପଷ୍ଟ କରନ୍ତୁ",
+        "contact": "ସହାୟତା ପାଇଁ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଏବଂ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ପଠାନ୍ତୁ।",
+        "description": "Appଟି ବନ୍ଦ କରି ପୁଣି ଖୋଲନ୍ତୁ, App Storeର ସବୁଠାରୁ ନୂତନ ସଂସ୍କରଣ ଇନଷ୍ଟଲ୍ ଅଛି କି ଯାଞ୍ଚ କରନ୍ତୁ। ଇମେଲ୍ କରିବାବେଳେ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଓ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ଲେଖନ୍ତୁ। ଚୟନିତ ଫଟୋ Apple imaging framework ଓ bundle ହୋଇଥିବା enhancement model ଦ୍ୱାରା ଡିଭାଇସରେ ପ୍ରକ୍ରିୟା ହୁଏ। Unblurry ଆପଣଙ୍କ ଫଟୋ ବିକାଶକର୍ତ୍ତାଙ୍କ serverକୁ upload କରେ ନାହିଁ।",
+        "eyebrow": "ସହାୟତା",
+        "heading": "Unblurry Pro: ଫଟୋ ସ୍ପଷ୍ଟ କରନ୍ତୁ · ସହାୟତା",
+        "labels": {
+          "app_store": "App Storeରେ ଦେଖନ୍ତୁ",
+          "contact": "ଯୋଗାଯୋଗ",
+          "home": "ମୁଖ୍ୟ ପୃଷ୍ଠା",
+          "language": "ଭାଷା",
+          "privacy": "ଗୋପନୀୟତା",
+          "support": "ସହାୟତା"
+        },
+        "lead": "Appଟି ବନ୍ଦ କରି ପୁଣି ଖୋଲନ୍ତୁ, App Storeର ସବୁଠାରୁ ନୂତନ ସଂସ୍କରଣ ଇନଷ୍ଟଲ୍ ଅଛି କି ଯାଞ୍ଚ କରନ୍ତୁ। ଇମେଲ୍ କରିବାବେଳେ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଓ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ଲେଖନ୍ତୁ।",
+        "sections": [
+          [
+            "Appଟି କଣ କରେ",
+            "ଧୁସରତା କମାନ୍ତୁ, ବିବରଣୀ ସୁଧାରନ୍ତୁ, ପୂର୍ବଦର୍ଶନ ତୁଳନା କରନ୍ତୁ ଏବଂ ମୂଳ ଫଟୋ ସୁରକ୍ଷିତ ରଖି ଫଳାଫଳ ସେଭ କରନ୍ତୁ।"
+          ],
+          [
+            "ସମସ୍ୟା ସମାଧାନ",
+            "Appଟି ବନ୍ଦ କରି ପୁଣି ଖୋଲନ୍ତୁ, App Storeର ସବୁଠାରୁ ନୂତନ ସଂସ୍କରଣ ଇନଷ୍ଟଲ୍ ଅଛି କି ଯାଞ୍ଚ କରନ୍ତୁ। ଇମେଲ୍ କରିବାବେଳେ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଓ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ଲେଖନ୍ତୁ।"
+          ],
+          [
+            "ତଥ୍ୟ ଓ ଗୋପନୀୟତା",
+            "ଚୟନିତ ଫଟୋ Apple imaging framework ଓ bundle ହୋଇଥିବା enhancement model ଦ୍ୱାରା ଡିଭାଇସରେ ପ୍ରକ୍ରିୟା ହୁଏ। Unblurry ଆପଣଙ୍କ ଫଟୋ ବିକାଶକର୍ତ୍ତାଙ୍କ serverକୁ upload କରେ ନାହିଁ। କୌଣସି ଆକାଉଣ୍ଟ ଦରକାର ନାହିଁ। Appରେ ତୃତୀୟ-ପକ୍ଷ ବିଜ୍ଞାପନ, App ମଧ୍ୟରେ ଟ୍ରାକିଂ କିମ୍ବା ତୃତୀୟ-ପକ୍ଷ ବିଶ୍ଳେଷଣ ନାହିଁ।"
+          ],
+          [
+            "କ୍ରୟ",
+            "କ୍ରୟ ପୂର୍ବରୁ ପୂର୍ବଦର୍ଶନ ମିଳେ। ମାଗଣା ସେଭରେ ସ୍ପଷ୍ଟ କରାଯାଇଥିବା ଗୁଣମାନ ସୀମା ରହେ; ଇଚ୍ଛାଧୀନ ଏକମାତ୍ର କ୍ରୟ full-quality output ଖୋଲେ ଏବଂ କ୍ରୟ Apple ପରିଚାଳନା କରେ।"
+          ],
+          [
+            "ତଥ୍ୟ ବିଲୋପ ଓ ପୁନରୁଦ୍ଧାର",
+            "Appରେ ବିଲୋପ ବିକଳ୍ପ ଥିଲେ ସେଠାରୁ ରେକର୍ଡ ବିଲୋପ କରନ୍ତୁ। App ବିଲୋପ କଲେ ସ୍ଥାନୀୟ container ହଟିଯାଏ; Apple ପରିଚାଳିତ backup ଆପଣଙ୍କ ଡିଭାଇସ ସେଟିଂ ଅନୁସରେ ରହେ।"
+          ]
+        ],
+        "title": "ସହାୟତା — Unblurry Pro: ଫଟୋ ସ୍ପଷ୍ଟ କରନ୍ତୁ"
+      }
+    }
+  },
+  "hourstag_paid": {},
+  "locale_names": {
+    "ar-SA": "العربية",
+    "bn-BD": "বাংলা",
+    "ca": "Català",
+    "cs": "Čeština",
+    "da": "Dansk",
+    "de-DE": "Deutsch",
+    "el": "Ελληνικά",
+    "en-AU": "English (Australia)",
+    "en-CA": "English (Canada)",
+    "en-GB": "English (United Kingdom)",
+    "en-US": "English (United States)",
+    "es-ES": "Español (España)",
+    "es-MX": "Español (México)",
+    "fi": "Suomi",
+    "fr-CA": "Français (Canada)",
+    "fr-FR": "Français (France)",
+    "gu-IN": "ગુજરાતી",
+    "he": "עברית",
+    "hi": "हिन्दी",
+    "hr": "Hrvatski",
+    "hu": "Magyar",
+    "id": "Bahasa Indonesia",
+    "it": "Italiano",
+    "ja": "日本語",
+    "kn-IN": "ಕನ್ನಡ",
+    "ko": "한국어",
+    "ml-IN": "മലയാളം",
+    "mr-IN": "मराठी",
+    "ms": "Bahasa Melayu",
+    "nl-NL": "Nederlands",
+    "no": "Norsk",
+    "or-IN": "ଓଡ଼ିଆ",
+    "pa-IN": "ਪੰਜਾਬੀ",
+    "pl": "Polski",
+    "pt-BR": "Português (Brasil)",
+    "pt-PT": "Português (Portugal)",
+    "ro": "Română",
+    "ru": "Русский",
+    "sk": "Slovenčina",
+    "sl-SI": "Slovenščina",
+    "sv": "Svenska",
+    "ta-IN": "தமிழ்",
+    "te-IN": "తెలుగు",
+    "th": "ไทย",
+    "tr": "Türkçe",
+    "uk": "Українська",
+    "ur-PK": "اردو",
+    "vi": "Tiếng Việt",
+    "zh-Hans": "简体中文",
+    "zh-Hant": "繁體中文"
+  },
+  "official_locales": [
+    "ar-SA",
+    "bn-BD",
+    "ca",
+    "zh-Hans",
+    "zh-Hant",
+    "hr",
+    "cs",
+    "da",
+    "nl-NL",
+    "en-AU",
+    "en-CA",
+    "en-GB",
+    "en-US",
+    "fi",
+    "fr-CA",
+    "fr-FR",
+    "de-DE",
+    "el",
+    "gu-IN",
+    "he",
+    "hi",
+    "hu",
+    "id",
+    "it",
+    "ja",
+    "kn-IN",
+    "ko",
+    "ms",
+    "ml-IN",
+    "mr-IN",
+    "no",
+    "or-IN",
+    "pl",
+    "pt-BR",
+    "pt-PT",
+    "pa-IN",
+    "ro",
+    "ru",
+    "sk",
+    "sl-SI",
+    "es-MX",
+    "es-ES",
+    "sv",
+    "ta-IN",
+    "te-IN",
+    "th",
+    "tr",
+    "uk",
+    "ur-PK",
+    "vi"
+  ],
+  "palette": {
+    "accent": "#5661e9",
+    "accent2": "#d45bd8"
+  },
+  "parent_notice": {},
+  "rtl_locales": [
+    "ar-SA",
+    "he",
+    "ur-PK"
+  ],
+  "schema": "support-required-surfaces/v1",
+  "site_key": "unblurry-support"
+}
