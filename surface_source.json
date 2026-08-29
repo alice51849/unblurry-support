@@ -1,0 +1,1026 @@
+{
+  "app": {
+    "app_store_get_status": "200",
+    "app_store_id": "6782275018",
+    "kids": false,
+    "monetization": "free with optional one-time unlock",
+    "name": "Unblurry Pro: Unblur & HD"
+  },
+  "authority_anchors": {
+    "index": [
+      "Reduce blur",
+      "original photo safe"
+    ],
+    "privacy": [
+      "Apple imaging frameworks",
+      "full-quality output"
+    ]
+  },
+  "authority_sources": [
+    "00_Standards/localization.md",
+    "00_Standards/kids-compliance.md",
+    "00_Standards/app-requirements.md",
+    "authoritative-session/support_surface_contract.json",
+    "authoritative-session/crosspromo_config.json"
+  ],
+  "base_url": "https://alice51849.github.io/unblurry-support/",
+  "content": {
+    "en-AU": {
+      "index": {
+        "app_name": "Unblurry Pro: Unblur & HD",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe.",
+        "eyebrow": "Official support site",
+        "heading": "Unblurry Pro: Unblur & HD",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe.",
+        "sections": [
+          [
+            "What the app does",
+            "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe."
+          ],
+          [
+            "Data and privacy",
+            "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server."
+          ],
+          [
+            "Purchase",
+            "Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase."
+          ]
+        ],
+        "title": "Unblurry Pro: Unblur & HD — Official support site"
+      },
+      "privacy": {
+        "app_name": "Unblurry Pro: Unblur & HD",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server. Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase.",
+        "eyebrow": "Privacy",
+        "heading": "Unblurry Pro: Unblur & HD · Privacy",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server.",
+        "sections": [
+          [
+            "Data and privacy",
+            "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server."
+          ],
+          [
+            "Accounts, ads and tracking",
+            "No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Privacy — Unblurry Pro: Unblur & HD"
+      },
+      "support": {
+        "app_name": "Unblurry Pro: Unblur & HD",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support. Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server.",
+        "eyebrow": "Support",
+        "heading": "Unblurry Pro: Unblur & HD · Support",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support.",
+        "sections": [
+          [
+            "What the app does",
+            "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe."
+          ],
+          [
+            "Troubleshooting",
+            "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support."
+          ],
+          [
+            "Data and privacy",
+            "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server. No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Support — Unblurry Pro: Unblur & HD"
+      }
+    },
+    "en-CA": {
+      "index": {
+        "app_name": "Unblurry Pro: Unblur & HD",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe.",
+        "eyebrow": "Official support site",
+        "heading": "Unblurry Pro: Unblur & HD",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe.",
+        "sections": [
+          [
+            "What the app does",
+            "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe."
+          ],
+          [
+            "Data and privacy",
+            "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server."
+          ],
+          [
+            "Purchase",
+            "Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase."
+          ]
+        ],
+        "title": "Unblurry Pro: Unblur & HD — Official support site"
+      },
+      "privacy": {
+        "app_name": "Unblurry Pro: Unblur & HD",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server. Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase.",
+        "eyebrow": "Privacy",
+        "heading": "Unblurry Pro: Unblur & HD · Privacy",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server.",
+        "sections": [
+          [
+            "Data and privacy",
+            "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server."
+          ],
+          [
+            "Accounts, ads and tracking",
+            "No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Privacy — Unblurry Pro: Unblur & HD"
+      },
+      "support": {
+        "app_name": "Unblurry Pro: Unblur & HD",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support. Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server.",
+        "eyebrow": "Support",
+        "heading": "Unblurry Pro: Unblur & HD · Support",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support.",
+        "sections": [
+          [
+            "What the app does",
+            "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe."
+          ],
+          [
+            "Troubleshooting",
+            "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support."
+          ],
+          [
+            "Data and privacy",
+            "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server. No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Support — Unblurry Pro: Unblur & HD"
+      }
+    },
+    "en-GB": {
+      "index": {
+        "app_name": "Unblurry Pro: Unblur & HD",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe.",
+        "eyebrow": "Official support site",
+        "heading": "Unblurry Pro: Unblur & HD",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe.",
+        "sections": [
+          [
+            "What the app does",
+            "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe."
+          ],
+          [
+            "Data and privacy",
+            "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server."
+          ],
+          [
+            "Purchase",
+            "Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase."
+          ]
+        ],
+        "title": "Unblurry Pro: Unblur & HD — Official support site"
+      },
+      "privacy": {
+        "app_name": "Unblurry Pro: Unblur & HD",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server. Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase.",
+        "eyebrow": "Privacy",
+        "heading": "Unblurry Pro: Unblur & HD · Privacy",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server.",
+        "sections": [
+          [
+            "Data and privacy",
+            "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server."
+          ],
+          [
+            "Accounts, ads and tracking",
+            "No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Privacy — Unblurry Pro: Unblur & HD"
+      },
+      "support": {
+        "app_name": "Unblurry Pro: Unblur & HD",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support. Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server.",
+        "eyebrow": "Support",
+        "heading": "Unblurry Pro: Unblur & HD · Support",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support.",
+        "sections": [
+          [
+            "What the app does",
+            "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe."
+          ],
+          [
+            "Troubleshooting",
+            "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support."
+          ],
+          [
+            "Data and privacy",
+            "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server. No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Support — Unblurry Pro: Unblur & HD"
+      }
+    },
+    "en-US": {
+      "index": {
+        "app_name": "Unblurry Pro: Unblur & HD",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe.",
+        "eyebrow": "Official support site",
+        "heading": "Unblurry Pro: Unblur & HD",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe.",
+        "sections": [
+          [
+            "What the app does",
+            "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe."
+          ],
+          [
+            "Data and privacy",
+            "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server."
+          ],
+          [
+            "Purchase",
+            "Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase."
+          ]
+        ],
+        "title": "Unblurry Pro: Unblur & HD — Official support site"
+      },
+      "privacy": {
+        "app_name": "Unblurry Pro: Unblur & HD",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server. Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase.",
+        "eyebrow": "Privacy",
+        "heading": "Unblurry Pro: Unblur & HD · Privacy",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server.",
+        "sections": [
+          [
+            "Data and privacy",
+            "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server."
+          ],
+          [
+            "Accounts, ads and tracking",
+            "No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Privacy — Unblurry Pro: Unblur & HD"
+      },
+      "support": {
+        "app_name": "Unblurry Pro: Unblur & HD",
+        "contact": "For help, include your device model, iOS version, app version and the steps that reproduce the issue.",
+        "description": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support. Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server.",
+        "eyebrow": "Support",
+        "heading": "Unblurry Pro: Unblur & HD · Support",
+        "labels": {
+          "app_store": "View on the App Store",
+          "contact": "Contact",
+          "home": "Home",
+          "language": "Language",
+          "privacy": "Privacy",
+          "support": "Support"
+        },
+        "lead": "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support.",
+        "sections": [
+          [
+            "What the app does",
+            "Reduce blur, enhance detail, compare the preview and save the result while keeping the original photo safe."
+          ],
+          [
+            "Troubleshooting",
+            "Close and reopen the app, confirm that the latest App Store version is installed, and include the device model, iOS version, app version and steps to reproduce when emailing support."
+          ],
+          [
+            "Data and privacy",
+            "Selected photos are processed on the device with Apple imaging frameworks and the bundled enhancement model. Unblurry does not upload your photos to a developer server. No account is required. The app contains no third-party advertising, cross-app tracking or third-party analytics."
+          ],
+          [
+            "Purchase",
+            "Previewing is available before purchase. Free saves use the disclosed quality limits; an optional one-time purchase unlocks full-quality output and Apple handles the purchase."
+          ],
+          [
+            "Deletion and recovery",
+            "Delete records from inside the app when that control is available. Deleting the app removes its local container; Apple-managed backups remain governed by your device settings."
+          ]
+        ],
+        "title": "Support — Unblurry Pro: Unblur & HD"
+      }
+    },
+    "or-IN": {
+      "index": {
+        "app_name": "Unblurry Pro: ଫଟୋ ସ୍ପଷ୍ଟ କରନ୍ତୁ",
+        "contact": "ସହାୟତା ପାଇଁ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଏବଂ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ପଠାନ୍ତୁ।",
+        "description": "ଧୁସରତା କମାନ୍ତୁ, ବିବରଣୀ ସୁଧାରନ୍ତୁ, ପୂର୍ବଦର୍ଶନ ତୁଳନା କରନ୍ତୁ ଏବଂ ମୂଳ ଫଟୋ ସୁରକ୍ଷିତ ରଖି ଫଳାଫଳ ସେଭ କରନ୍ତୁ।",
+        "eyebrow": "ଆଧିକାରିକ ସହାୟତା ସାଇଟ୍",
+        "heading": "Unblurry Pro: ଫଟୋ ସ୍ପଷ୍ଟ କରନ୍ତୁ",
+        "labels": {
+          "app_store": "App Storeରେ ଦେଖନ୍ତୁ",
+          "contact": "ଯୋଗାଯୋଗ",
+          "home": "ମୁଖ୍ୟ ପୃଷ୍ଠା",
+          "language": "ଭାଷା",
+          "privacy": "ଗୋପନୀୟତା",
+          "support": "ସହାୟତା"
+        },
+        "lead": "ଧୁସରତା କମାନ୍ତୁ, ବିବରଣୀ ସୁଧାରନ୍ତୁ, ପୂର୍ବଦର୍ଶନ ତୁଳନା କରନ୍ତୁ ଏବଂ ମୂଳ ଫଟୋ ସୁରକ୍ଷିତ ରଖି ଫଳାଫଳ ସେଭ କରନ୍ତୁ।",
+        "sections": [
+          [
+            "Appଟି କଣ କରେ",
+            "ଧୁସରତା କମାନ୍ତୁ, ବିବରଣୀ ସୁଧାରନ୍ତୁ, ପୂର୍ବଦର୍ଶନ ତୁଳନା କରନ୍ତୁ ଏବଂ ମୂଳ ଫଟୋ ସୁରକ୍ଷିତ ରଖି ଫଳାଫଳ ସେଭ କରନ୍ତୁ।"
+          ],
+          [
+            "ତଥ୍ୟ ଓ ଗୋପନୀୟତା",
+            "ଚୟନିତ ଫଟୋ Apple imaging framework ଓ bundle ହୋଇଥିବା enhancement model ଦ୍ୱାରା ଡିଭାଇସରେ ପ୍ରକ୍ରିୟା ହୁଏ। Unblurry ଆପଣଙ୍କ ଫଟୋ ବିକାଶକର୍ତ୍ତାଙ୍କ serverକୁ upload କରେ ନାହିଁ।"
+          ],
+          [
+            "କ୍ରୟ",
+            "କ୍ରୟ ପୂର୍ବରୁ ପୂର୍ବଦର୍ଶନ ମିଳେ। ମାଗଣା ସେଭରେ ସ୍ପଷ୍ଟ କରାଯାଇଥିବା ଗୁଣମାନ ସୀମା ରହେ; ଇଚ୍ଛାଧୀନ ଏକମାତ୍ର କ୍ରୟ full-quality output ଖୋଲେ ଏବଂ କ୍ରୟ Apple ପରିଚାଳନା କରେ।"
+          ]
+        ],
+        "title": "Unblurry Pro: ଫଟୋ ସ୍ପଷ୍ଟ କରନ୍ତୁ — ଆଧିକାରିକ ସହାୟତା ସାଇଟ୍"
+      },
+      "privacy": {
+        "app_name": "Unblurry Pro: ଫଟୋ ସ୍ପଷ୍ଟ କରନ୍ତୁ",
+        "contact": "ସହାୟତା ପାଇଁ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଏବଂ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ପଠାନ୍ତୁ।",
+        "description": "ଚୟନିତ ଫଟୋ Apple imaging framework ଓ bundle ହୋଇଥିବା enhancement model ଦ୍ୱାରା ଡିଭାଇସରେ ପ୍ରକ୍ରିୟା ହୁଏ। Unblurry ଆପଣଙ୍କ ଫଟୋ ବିକାଶକର୍ତ୍ତାଙ୍କ serverକୁ upload କରେ ନାହିଁ। କ୍ରୟ ପୂର୍ବରୁ ପୂର୍ବଦର୍ଶନ ମିଳେ। ମାଗଣା ସେଭରେ ସ୍ପଷ୍ଟ କରାଯାଇଥିବା ଗୁଣମାନ ସୀମା ରହେ; ଇଚ୍ଛାଧୀନ ଏକମାତ୍ର କ୍ରୟ full-quality output ଖୋଲେ ଏବଂ କ୍ରୟ Apple ପରିଚାଳନା କରେ।",
+        "eyebrow": "ଗୋପନୀୟତା",
+        "heading": "Unblurry Pro: ଫଟୋ ସ୍ପଷ୍ଟ କରନ୍ତୁ · ଗୋପନୀୟତା",
+        "labels": {
+          "app_store": "App Storeରେ ଦେଖନ୍ତୁ",
+          "contact": "ଯୋଗାଯୋଗ",
+          "home": "ମୁଖ୍ୟ ପୃଷ୍ଠା",
+          "language": "ଭାଷା",
+          "privacy": "ଗୋପନୀୟତା",
+          "support": "ସହାୟତା"
+        },
+        "lead": "ଚୟନିତ ଫଟୋ Apple imaging framework ଓ bundle ହୋଇଥିବା enhancement model ଦ୍ୱାରା ଡିଭାଇସରେ ପ୍ରକ୍ରିୟା ହୁଏ। Unblurry ଆପଣଙ୍କ ଫଟୋ ବିକାଶକର୍ତ୍ତାଙ୍କ serverକୁ upload କରେ ନାହିଁ।",
+        "sections": [
+          [
+            "ତଥ୍ୟ ଓ ଗୋପନୀୟତା",
+            "ଚୟନିତ ଫଟୋ Apple imaging framework ଓ bundle ହୋଇଥିବା enhancement model ଦ୍ୱାରା ଡିଭାଇସରେ ପ୍ରକ୍ରିୟା ହୁଏ। Unblurry ଆପଣଙ୍କ ଫଟୋ ବିକାଶକର୍ତ୍ତାଙ୍କ serverକୁ upload କରେ ନାହିଁ।"
+          ],
+          [
+            "ଆକାଉଣ୍ଟ, ବିଜ୍ଞାପନ ଓ ଟ୍ରାକିଂ",
+            "କୌଣସି ଆକାଉଣ୍ଟ ଦରକାର ନାହିଁ। Appରେ ତୃତୀୟ-ପକ୍ଷ ବିଜ୍ଞାପନ, App ମଧ୍ୟରେ ଟ୍ରାକିଂ କିମ୍ବା ତୃତୀୟ-ପକ୍ଷ ବିଶ୍ଳେଷଣ ନାହିଁ।"
+          ],
+          [
+            "କ୍ରୟ",
+            "କ୍ରୟ ପୂର୍ବରୁ ପୂର୍ବଦର୍ଶନ ମିଳେ। ମାଗଣା ସେଭରେ ସ୍ପଷ୍ଟ କରାଯାଇଥିବା ଗୁଣମାନ ସୀମା ରହେ; ଇଚ୍ଛାଧୀନ ଏକମାତ୍ର କ୍ରୟ full-quality output ଖୋଲେ ଏବଂ କ୍ରୟ Apple ପରିଚାଳନା କରେ।"
+          ],
+          [
+            "ତଥ୍ୟ ବିଲୋପ ଓ ପୁନରୁଦ୍ଧାର",
+            "Appରେ ବିଲୋପ ବିକଳ୍ପ ଥିଲେ ସେଠାରୁ ରେକର୍ଡ ବିଲୋପ କରନ୍ତୁ। App ବିଲୋପ କଲେ ସ୍ଥାନୀୟ container ହଟିଯାଏ; Apple ପରିଚାଳିତ backup ଆପଣଙ୍କ ଡିଭାଇସ ସେଟିଂ ଅନୁସରେ ରହେ।"
+          ]
+        ],
+        "title": "ଗୋପନୀୟତା — Unblurry Pro: ଫଟୋ ସ୍ପଷ୍ଟ କରନ୍ତୁ"
+      },
+      "support": {
+        "app_name": "Unblurry Pro: ଫଟୋ ସ୍ପଷ୍ଟ କରନ୍ତୁ",
+        "contact": "ସହାୟତା ପାଇଁ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଏବଂ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ପଠାନ୍ତୁ।",
+        "description": "Appଟି ବନ୍ଦ କରି ପୁଣି ଖୋଲନ୍ତୁ, App Storeର ସବୁଠାରୁ ନୂତନ ସଂସ୍କରଣ ଇନଷ୍ଟଲ୍ ଅଛି କି ଯାଞ୍ଚ କରନ୍ତୁ। ଇମେଲ୍ କରିବାବେଳେ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଓ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ଲେଖନ୍ତୁ। ଚୟନିତ ଫଟୋ Apple imaging framework ଓ bundle ହୋଇଥିବା enhancement model ଦ୍ୱାରା ଡିଭାଇସରେ ପ୍ରକ୍ରିୟା ହୁଏ। Unblurry ଆପଣଙ୍କ ଫଟୋ ବିକାଶକର୍ତ୍ତାଙ୍କ serverକୁ upload କରେ ନାହିଁ।",
+        "eyebrow": "ସହାୟତା",
+        "heading": "Unblurry Pro: ଫଟୋ ସ୍ପଷ୍ଟ କରନ୍ତୁ · ସହାୟତା",
+        "labels": {
+          "app_store": "App Storeରେ ଦେଖନ୍ତୁ",
+          "contact": "ଯୋଗାଯୋଗ",
+          "home": "ମୁଖ୍ୟ ପୃଷ୍ଠା",
+          "language": "ଭାଷା",
+          "privacy": "ଗୋପନୀୟତା",
+          "support": "ସହାୟତା"
+        },
+        "lead": "Appଟି ବନ୍ଦ କରି ପୁଣି ଖୋଲନ୍ତୁ, App Storeର ସବୁଠାରୁ ନୂତନ ସଂସ୍କରଣ ଇନଷ୍ଟଲ୍ ଅଛି କି ଯାଞ୍ଚ କରନ୍ତୁ। ଇମେଲ୍ କରିବାବେଳେ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଓ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ଲେଖନ୍ତୁ।",
+        "sections": [
+          [
+            "Appଟି କଣ କରେ",
+            "ଧୁସରତା କମାନ୍ତୁ, ବିବରଣୀ ସୁଧାରନ୍ତୁ, ପୂର୍ବଦର୍ଶନ ତୁଳନା କରନ୍ତୁ ଏବଂ ମୂଳ ଫଟୋ ସୁରକ୍ଷିତ ରଖି ଫଳାଫଳ ସେଭ କରନ୍ତୁ।"
+          ],
+          [
+            "ସମସ୍ୟା ସମାଧାନ",
+            "Appଟି ବନ୍ଦ କରି ପୁଣି ଖୋଲନ୍ତୁ, App Storeର ସବୁଠାରୁ ନୂତନ ସଂସ୍କରଣ ଇନଷ୍ଟଲ୍ ଅଛି କି ଯାଞ୍ଚ କରନ୍ତୁ। ଇମେଲ୍ କରିବାବେଳେ ଡିଭାଇସ ମଡେଲ୍, iOS ସଂସ୍କରଣ, App ସଂସ୍କରଣ ଓ ସମସ୍ୟା ପୁଣି କରିବାର ପଦକ୍ଷେପ ଲେଖନ୍ତୁ।"
+          ],
+          [
+            "ତଥ୍ୟ ଓ ଗୋପନୀୟତା",
+            "ଚୟନିତ ଫଟୋ Apple imaging framework ଓ bundle ହୋଇଥିବା enhancement model ଦ୍ୱାରା ଡିଭାଇସରେ ପ୍ରକ୍ରିୟା ହୁଏ। Unblurry ଆପଣଙ୍କ ଫଟୋ ବିକାଶକର୍ତ୍ତାଙ୍କ serverକୁ upload କରେ ନାହିଁ। କୌଣସି ଆକାଉଣ୍ଟ ଦରକାର ନାହିଁ। Appରେ ତୃତୀୟ-ପକ୍ଷ ବିଜ୍ଞାପନ, App ମଧ୍ୟରେ ଟ୍ରାକିଂ କିମ୍ବା ତୃତୀୟ-ପକ୍ଷ ବିଶ୍ଳେଷଣ ନାହିଁ।"
+          ],
+          [
+            "କ୍ରୟ",
+            "କ୍ରୟ ପୂର୍ବରୁ ପୂର୍ବଦର୍ଶନ ମିଳେ। ମାଗଣା ସେଭରେ ସ୍ପଷ୍ଟ କରାଯାଇଥିବା ଗୁଣମାନ ସୀମା ରହେ; ଇଚ୍ଛାଧୀନ ଏକମାତ୍ର କ୍ରୟ full-quality output ଖୋଲେ ଏବଂ କ୍ରୟ Apple ପରିଚାଳନା କରେ।"
+          ],
+          [
+            "ତଥ୍ୟ ବିଲୋପ ଓ ପୁନରୁଦ୍ଧାର",
+            "Appରେ ବିଲୋପ ବିକଳ୍ପ ଥିଲେ ସେଠାରୁ ରେକର୍ଡ ବିଲୋପ କରନ୍ତୁ। App ବିଲୋପ କଲେ ସ୍ଥାନୀୟ container ହଟିଯାଏ; Apple ପରିଚାଳିତ backup ଆପଣଙ୍କ ଡିଭାଇସ ସେଟିଂ ଅନୁସରେ ରହେ।"
+          ]
+        ],
+        "title": "ସହାୟତା — Unblurry Pro: ଫଟୋ ସ୍ପଷ୍ଟ କରନ୍ତୁ"
+      }
+    }
+  },
+  "crosspromo_labels": {
+    "en-AU": {
+      "guides": "More app guides and practical tips",
+      "heading": "More apps from the same developer",
+      "store_note": "Links open the App Store."
+    },
+    "en-CA": {
+      "guides": "More app guides and practical tips",
+      "heading": "More apps from the same developer",
+      "store_note": "Links open the App Store."
+    },
+    "en-GB": {
+      "guides": "More app guides and practical tips",
+      "heading": "More apps from the same developer",
+      "store_note": "Links open the App Store."
+    },
+    "en-US": {
+      "guides": "More app guides and practical tips",
+      "heading": "More apps from the same developer",
+      "store_note": "Links open the App Store."
+    },
+    "or-IN": {
+      "guides": "ଅଧିକ ଆପ୍ ଗାଇଡ୍ ଏବଂ ବ୍ୟବହାର ପରାମର୍ଶ",
+      "heading": "ସେହି ଡେଭେଲପରଙ୍କ ଅଧିକ ଆପ୍",
+      "store_note": "ଲିଙ୍କଗୁଡ଼ିକ App Store ଖୋଲିବ।"
+    }
+  },
+  "crosspromo_source": "ar-SA/index.html",
+  "generated_surfaces": [
+    "en-AU/index.html",
+    "en-AU/privacy.html",
+    "en-AU/support.html",
+    "en-CA/index.html",
+    "en-CA/privacy.html",
+    "en-CA/support.html",
+    "en-GB/index.html",
+    "en-GB/privacy.html",
+    "en-GB/support.html",
+    "en-US/index.html",
+    "en-US/privacy.html",
+    "en-US/support.html",
+    "or-IN/index.html",
+    "or-IN/privacy.html",
+    "or-IN/support.html"
+  ],
+  "hourstag_paid": {},
+  "integration_base": "0762f6376397b491e59f8439110ec9b538451451",
+  "integration_date": "2026-08-29",
+  "locale_names": {
+    "ar-SA": "العربية",
+    "bn-BD": "বাংলা",
+    "ca": "Català",
+    "cs": "Čeština",
+    "da": "Dansk",
+    "de-DE": "Deutsch",
+    "el": "Ελληνικά",
+    "en-AU": "English (Australia)",
+    "en-CA": "English (Canada)",
+    "en-GB": "English (United Kingdom)",
+    "en-US": "English (United States)",
+    "es-ES": "Español (España)",
+    "es-MX": "Español (México)",
+    "fi": "Suomi",
+    "fr-CA": "Français (Canada)",
+    "fr-FR": "Français (France)",
+    "gu-IN": "ગુજરાતી",
+    "he": "עברית",
+    "hi": "हिन्दी",
+    "hr": "Hrvatski",
+    "hu": "Magyar",
+    "id": "Bahasa Indonesia",
+    "it": "Italiano",
+    "ja": "日本語",
+    "kn-IN": "ಕನ್ನಡ",
+    "ko": "한국어",
+    "ml-IN": "മലയാളം",
+    "mr-IN": "मराठी",
+    "ms": "Bahasa Melayu",
+    "nl-NL": "Nederlands",
+    "no": "Norsk",
+    "or-IN": "ଓଡ଼ିଆ",
+    "pa-IN": "ਪੰਜਾਬੀ",
+    "pl": "Polski",
+    "pt-BR": "Português (Brasil)",
+    "pt-PT": "Português (Portugal)",
+    "ro": "Română",
+    "ru": "Русский",
+    "sk": "Slovenčina",
+    "sl-SI": "Slovenščina",
+    "sv": "Svenska",
+    "ta-IN": "தமிழ்",
+    "te-IN": "తెలుగు",
+    "th": "ไทย",
+    "tr": "Türkçe",
+    "uk": "Українська",
+    "ur-PK": "اردو",
+    "vi": "Tiếng Việt",
+    "zh-Hans": "简体中文",
+    "zh-Hant": "繁體中文"
+  },
+  "official_locales": [
+    "ar-SA",
+    "bn-BD",
+    "ca",
+    "zh-Hans",
+    "zh-Hant",
+    "hr",
+    "cs",
+    "da",
+    "nl-NL",
+    "en-AU",
+    "en-CA",
+    "en-GB",
+    "en-US",
+    "fi",
+    "fr-CA",
+    "fr-FR",
+    "de-DE",
+    "el",
+    "gu-IN",
+    "he",
+    "hi",
+    "hu",
+    "id",
+    "it",
+    "ja",
+    "kn-IN",
+    "ko",
+    "ms",
+    "ml-IN",
+    "mr-IN",
+    "no",
+    "or-IN",
+    "pl",
+    "pt-BR",
+    "pt-PT",
+    "pa-IN",
+    "ro",
+    "ru",
+    "sk",
+    "sl-SI",
+    "es-MX",
+    "es-ES",
+    "sv",
+    "ta-IN",
+    "te-IN",
+    "th",
+    "tr",
+    "uk",
+    "ur-PK",
+    "vi"
+  ],
+  "palette": {
+    "accent": "#5661e9",
+    "accent2": "#d45bd8"
+  },
+  "parent_notice": {},
+  "preserved_hreflang_aliases": [
+    "en"
+  ],
+  "preserved_root_hreflang_locales": [
+    "en",
+    "en-AU",
+    "en-CA",
+    "en-GB"
+  ],
+  "preserved_root_hreflang_targets": {
+    "index": "https://alice51849.github.io/unblurry-support/",
+    "privacy": "https://alice51849.github.io/unblurry-support/privacy.html",
+    "support": "https://alice51849.github.io/unblurry-support/support.html"
+  },
+  "preserved_sitemap_sha256": "9ec0f4f675cb59671c368bb89dc0965d8f96042c535f2d53ee3a75efca046e00",
+  "preserved_surface_sha256": {
+    "ar-SA/index.html": "b0064f6bd6c161b15868c6f6d3080fb944a1bf3e4c4e9811ed2a23d40e6e894b",
+    "ar-SA/privacy.html": "24e31cdd2798b6251e43734bf61c551fcfd72c971daa2359485e0df4b6004b0c",
+    "ar-SA/support.html": "e4f532a417408a97d5fe8f0a8211a0c17d3f2864bfb8b2441eccf95e437d5a3f",
+    "bn-BD/index.html": "bb97fbe8e0c813c8ec481af11c8f0bed6d5bbc9a6e6b69f0d7417ad88dee4421",
+    "bn-BD/privacy.html": "f7d6c9b11bdeb6e344a9dd9398489e2e5e3a035f8ea062e3472b3290d21381ce",
+    "bn-BD/support.html": "ae92df57f293770361a8f97be980b54ecabd5dd2d7baddf497b26fb17de06419",
+    "ca/index.html": "0a33007077a7a9d5ae32956a6a2bb1ff85e84af408df7c3ecc2ef9040079663d",
+    "ca/privacy.html": "0326a9cdd1981c58a565907b0ea6d94ae1e100311bbf53311f94f96bfb51c834",
+    "ca/support.html": "cb3f95e5df1cf8a0e440262673dc34acb29293bd5290e71486e996dd3bade67f",
+    "cs/index.html": "d162b51a06894804c1cca04f3e15b50fa84758f85a388b5a8660ed794e34c0f2",
+    "cs/privacy.html": "5b6bf415340b948f18f1cd3b87677e76cd453a669bf92e26f85ea99166902c7f",
+    "cs/support.html": "0d47575386814207009361597af39559e6a513dd8f1c5339887279cde391b3b2",
+    "da/index.html": "03b46c96353a5bbd8b7b2b27866dac0f4d55169ea2202399cc36279807aa6a72",
+    "da/privacy.html": "5790dbc5fe30e0cc511292535d3190d22fa591bf6f551f62b8f270fe07b98346",
+    "da/support.html": "c3f325d6d8893c1d998133a89ee887a17771406d438d9292dd6e1022e527f705",
+    "de-DE/index.html": "4836be6dcf6e451ad2534c6cb7bb65a3fae683e68fd7191591f011cdeb39676c",
+    "de-DE/privacy.html": "16adc9f4f80aac6a7ab6a2f9ba58e0cdd06c0f4961c32e4b05341512eed1ec4c",
+    "de-DE/support.html": "345f23f29844ff1b64702f38f0a1bc3735375bbea5876d410870e19521cf494d",
+    "el/index.html": "f576b2af8eb115c1bafd7adf5cb6022a6ae21ce8f2ec01fd5da1f3fb20e773b0",
+    "el/privacy.html": "d29f54dae98c5c7c4bd56c697291f5ac58f8a24e8bca4b50903ca8dcd8116aa3",
+    "el/support.html": "38a97ab58bfd1d33cf6fce592331c2f67486915424305b1e47351048cc4dfda7",
+    "es-ES/index.html": "26c932e7163222ea37e1839dedb0f7bf0cd7cc99c733c98627ca2ed8f8f4cc32",
+    "es-ES/privacy.html": "2598017ec45371ede400185b1b5f8c5243a60e05b54ccc98dce293233b11753a",
+    "es-ES/support.html": "6849f5c2efddcd70edf190648682f58613d500f124d68c103b715a5ed5c8e52a",
+    "es-MX/index.html": "a79eff757783774e45f2a5d76b276d034a1a109258c825b38a1ec34c7b68496f",
+    "es-MX/privacy.html": "8e7de6825dc22599f29426f00f94a388e598d04bd0813d2b92003622561baba8",
+    "es-MX/support.html": "024ad01b7b7a9759d5ac468a692b5e47aa6e21782813997b7eac290ca4cbda52",
+    "fi/index.html": "90a18e4ee8a4bb3269ba9591334e9e9e1e7652bf882da74f238e9b8e204a6f30",
+    "fi/privacy.html": "58f08ce4732c8cb03d1f700e2bb7971d8aa7f8cda82353e3cb723bc8867468bf",
+    "fi/support.html": "c14dab95ea9acfff39ff57be98e8b2f4556d692cadf57e1363db5bb8269e8986",
+    "fr-CA/index.html": "37014e3916cdd6893c4f160119c4a1eae91783fe2000643792cd4a172836565c",
+    "fr-CA/privacy.html": "feaba64ac5cb7bc87e50aff83520ec38d2197b5e4a7c91a16f64de31dd88d47f",
+    "fr-CA/support.html": "5d83722f54794003728547064dc30c4b77e9ca3b3a761da9f04f586006ab2ae7",
+    "fr-FR/index.html": "f65839743bd4ee97c8e96fe1f822196e24e254369abdcb6616e3a013894fca48",
+    "fr-FR/privacy.html": "4694f2fcd906cca951851ea883b24c4580ff059c16cc9022b41281c8822624c5",
+    "fr-FR/support.html": "6bc3c56837e5b541c69c537c9632872434207f243053f9ff5a7ad602427ef4a7",
+    "gu-IN/index.html": "f276a9d7b1e42eed868e229b7cfa5a9784f39f3ff1e19e121706ac2d47b9544e",
+    "gu-IN/privacy.html": "78d150d630820f27df6b6cca4ea09f82cdaafb8a3e2b60ede5462bad7ebe721a",
+    "gu-IN/support.html": "c14d34481f99e0c8af5fccf1b671471c565fa2b4e2c2cfb60f3e65607e24e5aa",
+    "he/index.html": "08aa54d35e46ec8f69913651c3c347cd5f8832018f464a8c5125e590d00a78c3",
+    "he/privacy.html": "5685c64241dfe42d50a06a01ed56d2d2c2a11f3bfde1847215cc5550659745c7",
+    "he/support.html": "3f86b9b600974e0f670ec4650bc4e07bf3dda3e3a5748ef80e2e546aa2d6d782",
+    "hi/index.html": "e6c0337d52d060311b0a47fa0f89b829eceadb0e3f93fb143236b32dd5ca04ec",
+    "hi/privacy.html": "4e4e3f54658f9f8e2553f52fc61787d50e6d413aa08e8e24a58844182701a46b",
+    "hi/support.html": "b24f30e40d9cc5f9e85bf8895441d152ce61a24b45d58ec15112b451ad76102f",
+    "hr/index.html": "5e14e3b15bbe442822f443594ccc634bf82a91df629f28a29753357bc12346df",
+    "hr/privacy.html": "ac5d13e208ea45d22ab69e0761fd78ff544d9971333adf0eea4aef2578fe04c4",
+    "hr/support.html": "069ee828468a65a3113f2678b75013e31b9640d86fea8f915394111c9db6e973",
+    "hu/index.html": "435809709b1ca24fd3f4df2650ecbc5b639e1a75328b343259bb214c6f28fbc4",
+    "hu/privacy.html": "22e4d02b447a25e9e516aebb6bf12a08715853f0cc9e34303d23b285f6b2ef14",
+    "hu/support.html": "d979c0547d7d226866ccd34d6c36baf839f56a40d3cd7ec4bcb7ade4238e4ecf",
+    "id/index.html": "c26bd8f1ae37242cbf6b5b13f1de391a47b895ab3bf13853a5cf333dd0282fb0",
+    "id/privacy.html": "1d1fe67cf5a2023dd47d81951b4d5819bc3cd3e0107d894a64ebb7c55ebf6fc2",
+    "id/support.html": "19bdd5d524aec98127e93389476e7367dcf51fc5e9b3f4692ba78a2c5e81726e",
+    "it/index.html": "5a7462f2de04a83f112d7114a1ca8f9c59d7514db136bab9c96e73244fdf63af",
+    "it/privacy.html": "448412452480c1bfde14abeb0faa3a1306ca6f9a23c076eb37db9b2ba2a2a82a",
+    "it/support.html": "1620426bb6a02e522957adfa03d6e5bf988d1b82b1877897f4adf28550bef276",
+    "ja/index.html": "a6b245a5e09a840633019af18b34493e6c65cdc82c61e9a64e54c817b8107c9c",
+    "ja/privacy.html": "dca63e516cc62bb59d02000e51ed16d336c410a58716706a0de18d90f4ca5ee0",
+    "ja/support.html": "e1f25e1cba50e77d91956ca5bc681a4d4b86a48f8908d3c6a8f955642b94b729",
+    "kn-IN/index.html": "bcf495b65def3ac14dddb518a6c6e1f4f7cb91bc5c6cb725aff668eb3f39653d",
+    "kn-IN/privacy.html": "17b8e2d192b337ad1dcf211b9aec1ef4c12d2aee5e27e6f47edba0b1d6cbc024",
+    "kn-IN/support.html": "9bd62336fd1bf4a2a22a790d2381cb14b0b87f5f984000ecb449f3915ede1de6",
+    "ko/index.html": "fa1ee3397ca0022b6764d9ab7a56294d2793502a4a588df08b7f3e733cbf6f60",
+    "ko/privacy.html": "c08a88e0c3ca84101a8ba9be69328ea3fb14cb9979ffa822dd1f4da53ae2a28b",
+    "ko/support.html": "757abd61290c4a0794139685871014b46bdb8da68b1865cf95432d9db692b357",
+    "ml-IN/index.html": "38646cf1418c067c7dd4e075bcbbbfd832a7fb743423ed9ae114aa1cc7870ea6",
+    "ml-IN/privacy.html": "5b8af6bbc5e390af756235eb4203c9cd227a784e2d35177027a971bc2d549d1e",
+    "ml-IN/support.html": "da01a7272e6734a3bda422b8c2d292e86f4850f2cd116d500530b858dcdd0507",
+    "mr-IN/index.html": "2b32633972a6ec5dd8aceef8322586b4a2dfb2cf32ab74068dd66892587c9299",
+    "mr-IN/privacy.html": "96b76421d4aa57e75d44ca8748e6395fdcda0eb1a02b9032f912b7057d81ac6e",
+    "mr-IN/support.html": "72874a6f76a5a481c79b5d704a69578d101ec89960a914ae1c61ad133d41dffc",
+    "ms/index.html": "2e03726398e547e366855314632ce38919ea67ca348fec1adac9a32ac110c3b1",
+    "ms/privacy.html": "61a80ded6cc75a262dc2076e553b0c50bf2c2f7cf0f6203d5ede86e99ab20a76",
+    "ms/support.html": "3d75ea6e3d09321e42a0ef24db40c22b8be57f6e851cccd729f46541989363a9",
+    "nl-NL/index.html": "72d01d3cb040fc5d37e6a151a8cf675c94a30374850bd878bbfd79b187c2ca86",
+    "nl-NL/privacy.html": "21f8010c2314307cb755e5499ccfdd979014c72330d23ae2e7d067571d0d67ce",
+    "nl-NL/support.html": "fa502a3ed5f39ac7f7dcfb0b4c49367832242bc23a9d64e22dbfff13a91a3c4f",
+    "no/index.html": "036029a79a73ddcf4afaa64dc7a3d8549d3e661f5e66857867f9d04725273ca0",
+    "no/privacy.html": "0049ac8e68d28cf4c00cfc68893a4c4632b8dcec9eabed60779f4741fe6aee40",
+    "no/support.html": "99a92039b003db112d6871a43f7de5668369b9c997315f933ed088c0b41d1808",
+    "pa-IN/index.html": "e299adb21676443c7ea27c043ac1a3f952ef006b6a38ddc733b07f280dbbd764",
+    "pa-IN/privacy.html": "7f2a8ac398c4edf93988f8a9d43c5ad6e72a44d6f91834f8769b11fec10e7afa",
+    "pa-IN/support.html": "0f9d534bf2c912385f3a6d648b6f847956327fb9c4ef017516fd334180ff5150",
+    "pl/index.html": "a5f53c7ba7a0ff2cc3e0765ccd34873c1ddc3d272bcfdb92c290049e0bd4364d",
+    "pl/privacy.html": "b4b74da4315ef93bb318fcb9124f7534a8ad6d405fdbd74dfceec192be61df20",
+    "pl/support.html": "4ec47bdc194175782688fb9275b1c4bc7ad5e30cf54ef7b96abf20529ae655dd",
+    "pt-BR/index.html": "d09aa424b5a1a8c739fdd7258378c9a43283756dc2ee08bea77c89e12924c041",
+    "pt-BR/privacy.html": "76adc00a7417ed8ec4dcd7bd30073bb4e28526b46300336ba0e5ff6289b4fee7",
+    "pt-BR/support.html": "958a791e0b361f5f403df26952bc67c9343dd6f65e56ebd66380a2e50498deaa",
+    "pt-PT/index.html": "15189530924901462ea70865a158070f7498283b3acd339f27b7f572c3688198",
+    "pt-PT/privacy.html": "5adc02cfd64c8a2e1d4b0acb22668b7058f137632f5159e49a4cf9a198aa305c",
+    "pt-PT/support.html": "0326f5c765e8029d52bcb3d034a370399e5c24ae51b53a30943ce6159a8f76fb",
+    "ro/index.html": "77a986e716fbd60cad2fcb8bdef149b9f83dba7904dd4639ab370a5df2498a8a",
+    "ro/privacy.html": "525ca96dc645e46e4e63e0cb2784f9a81ec98234de6ef55cbe9d75dd336bba42",
+    "ro/support.html": "fe49a658da3eeb797c12f829575b413c4485d2e44570415667d62d5e225822e1",
+    "ru/index.html": "acb90d68ec93d53b63599248807f47132b6bf2a1342e1a64103be1a3fe5beb8e",
+    "ru/privacy.html": "ae07e821839958042f7425bf28ba024e9e6e1935b24b1e05c613c9dddef5a7cf",
+    "ru/support.html": "18b987b8ee2540d908e04c4cdc7e026137a4e45f0227112ed5d91898827ced3e",
+    "sk/index.html": "4afe5cfc01a3e6a71055f331f9665e52f9bb3ea1656dda1d880cde28954798de",
+    "sk/privacy.html": "2f6aaaac3e83314ba847aea576ae2e6ef070a978760b695f7d5e1a9aea1c4c5e",
+    "sk/support.html": "e0821f45f000d3d0d7ce509e4dcb15d2b8e0f88dd843d5ef7b0db7230ab3ebca",
+    "sl-SI/index.html": "9d55e8c0b6208d4f25d4f669815ef26a4cd5fb0ad0d150d11d2c9837cd1a55c6",
+    "sl-SI/privacy.html": "e39cccf2182b26d0d4114cec6daa9fe3e7906bdd9a97f94338a3e9e44b8a79ee",
+    "sl-SI/support.html": "faaeb9f6b70bd6df3a469972e5e85028c7505414b89a275f8af07f5f8448e600",
+    "sv/index.html": "420bce19bc47fab5cccf7aad3f3ddacc3b99943200aa23484c05efe44e3f945d",
+    "sv/privacy.html": "6e802322b86b8616f1214001713ad335bcb7b7e40c99f9c0514554a50bcc4a23",
+    "sv/support.html": "d82c55e2d7d96a63e8c1b3c052ad01b59b905897cdba4ad5ddc67bad0c7eebce",
+    "ta-IN/index.html": "9f2956051babd11108dbdb5fbf5ac28803cb9e355fe208206c1d8c2e4af31e4e",
+    "ta-IN/privacy.html": "d35ddb1ae7f858048b48df0c4b124fd3284d46149315c5d01b363b368c5ab024",
+    "ta-IN/support.html": "19880632faf4035d01a0744fc185720d206ddcb606c333c26b8c801aa95d065f",
+    "te-IN/index.html": "2f93956af1b9e2c28274c6e65586ae52c32777647b9b0e5c8f86f5226f571e17",
+    "te-IN/privacy.html": "855bd91395f3d782fb36fd8883938210327e3fa2af08f594fa3bda86e74adcfe",
+    "te-IN/support.html": "0993afe8c668df0634d9544dd70d389b9e3cc632c21271a04a09ef33e1519d9e",
+    "th/index.html": "cac8c054ddd3973ec95b336a4d8ee905909947764544a59c339e6b5dcc09fe09",
+    "th/privacy.html": "64eccf835b931f4d8d06014426ecc8b944d66162019f6b9d5fcdf9c1c1d15b96",
+    "th/support.html": "e45478af06c42593c062d2626564bedeadfd2a5fd2c798d064570d1eedb77289",
+    "tr/index.html": "557e719aded8cc2f3353d2a4e2f336925f26e20a490fbcc3c1f60c5c1916f190",
+    "tr/privacy.html": "739b31b063899eec4f96750b9c8d5653d74e7b9b449819addc08274902ce6c98",
+    "tr/support.html": "96048945744c709633c2567dcbc94b98d7a41ad74cceca0617cabc5e7e6a5d5f",
+    "uk/index.html": "517d4aff066d639539de2da99a5ed514d07ec20658e3bd65028caf8a473a4075",
+    "uk/privacy.html": "2311b1fdabf212048a84f1d9ecf154487e74d54c4f06daf88b8c2dd533010b50",
+    "uk/support.html": "974b35f19ff51dff143994b5da743a7a3c5b8664c376feb30553c56b39e7b2f6",
+    "ur-PK/index.html": "a28410d075ae06fe3121f23da83872950636b63242f0b2542d6ced8b6ec8ef70",
+    "ur-PK/privacy.html": "f6c45a0d4b9134a49d09f711f4ccd2a3576ca0026babf6561745c154762e6935",
+    "ur-PK/support.html": "75add5808cc1d2e0c661ac60f785ca732471d4963dc3f17f1d0f7b8d04011b8f",
+    "vi/index.html": "9b4675029df28d63b3ceee7acafd77a7dd4f413a0e60a49c25951c154c395745",
+    "vi/privacy.html": "ae20297e29c754df6c0a31b62fca0c024d8f1ef1b2d43fc274f499b08c7bcedb",
+    "vi/support.html": "c1c5f153e68906b4f84dd756234e174c059e61ec41b7940ca7a2317a244b090a",
+    "zh-Hans/index.html": "a85ea0738c565186dddb977e6c5213ab82591c6f72766f472bf6b719e460597c",
+    "zh-Hans/privacy.html": "195b40c0d4b9f051f779a6ae110b93c0fcef5ec2b00b95e6805949598daf1cab",
+    "zh-Hans/support.html": "58f65cef76f5f58b9fd5a817415f9b74fac96d9ab54fdd4b2160e340f2d43db2",
+    "zh-Hant/index.html": "135672e04a2372297f4e6c5d4c247ef9add9ab749b09f6f6ae11868360952d5c",
+    "zh-Hant/privacy.html": "7975841a2930f6bdab763e6f0ca5358a561c3a474fc4655dc8c904a38b65817a",
+    "zh-Hant/support.html": "ce5065decf12291f9bccc26d84673a6278c4c3114da2928102e0c89352b9526f"
+  },
+  "preserved_surfaces": [
+    "ar-SA/index.html",
+    "ar-SA/privacy.html",
+    "ar-SA/support.html",
+    "bn-BD/index.html",
+    "bn-BD/privacy.html",
+    "bn-BD/support.html",
+    "ca/index.html",
+    "ca/privacy.html",
+    "ca/support.html",
+    "cs/index.html",
+    "cs/privacy.html",
+    "cs/support.html",
+    "da/index.html",
+    "da/privacy.html",
+    "da/support.html",
+    "de-DE/index.html",
+    "de-DE/privacy.html",
+    "de-DE/support.html",
+    "el/index.html",
+    "el/privacy.html",
+    "el/support.html",
+    "es-ES/index.html",
+    "es-ES/privacy.html",
+    "es-ES/support.html",
+    "es-MX/index.html",
+    "es-MX/privacy.html",
+    "es-MX/support.html",
+    "fi/index.html",
+    "fi/privacy.html",
+    "fi/support.html",
+    "fr-CA/index.html",
+    "fr-CA/privacy.html",
+    "fr-CA/support.html",
+    "fr-FR/index.html",
+    "fr-FR/privacy.html",
+    "fr-FR/support.html",
+    "gu-IN/index.html",
+    "gu-IN/privacy.html",
+    "gu-IN/support.html",
+    "he/index.html",
+    "he/privacy.html",
+    "he/support.html",
+    "hi/index.html",
+    "hi/privacy.html",
+    "hi/support.html",
+    "hr/index.html",
+    "hr/privacy.html",
+    "hr/support.html",
+    "hu/index.html",
+    "hu/privacy.html",
+    "hu/support.html",
+    "id/index.html",
+    "id/privacy.html",
+    "id/support.html",
+    "it/index.html",
+    "it/privacy.html",
+    "it/support.html",
+    "ja/index.html",
+    "ja/privacy.html",
+    "ja/support.html",
+    "kn-IN/index.html",
+    "kn-IN/privacy.html",
+    "kn-IN/support.html",
+    "ko/index.html",
+    "ko/privacy.html",
+    "ko/support.html",
+    "ml-IN/index.html",
+    "ml-IN/privacy.html",
+    "ml-IN/support.html",
+    "mr-IN/index.html",
+    "mr-IN/privacy.html",
+    "mr-IN/support.html",
+    "ms/index.html",
+    "ms/privacy.html",
+    "ms/support.html",
+    "nl-NL/index.html",
+    "nl-NL/privacy.html",
+    "nl-NL/support.html",
+    "no/index.html",
+    "no/privacy.html",
+    "no/support.html",
+    "pa-IN/index.html",
+    "pa-IN/privacy.html",
+    "pa-IN/support.html",
+    "pl/index.html",
+    "pl/privacy.html",
+    "pl/support.html",
+    "pt-BR/index.html",
+    "pt-BR/privacy.html",
+    "pt-BR/support.html",
+    "pt-PT/index.html",
+    "pt-PT/privacy.html",
+    "pt-PT/support.html",
+    "ro/index.html",
+    "ro/privacy.html",
+    "ro/support.html",
+    "ru/index.html",
+    "ru/privacy.html",
+    "ru/support.html",
+    "sk/index.html",
+    "sk/privacy.html",
+    "sk/support.html",
+    "sl-SI/index.html",
+    "sl-SI/privacy.html",
+    "sl-SI/support.html",
+    "sv/index.html",
+    "sv/privacy.html",
+    "sv/support.html",
+    "ta-IN/index.html",
+    "ta-IN/privacy.html",
+    "ta-IN/support.html",
+    "te-IN/index.html",
+    "te-IN/privacy.html",
+    "te-IN/support.html",
+    "th/index.html",
+    "th/privacy.html",
+    "th/support.html",
+    "tr/index.html",
+    "tr/privacy.html",
+    "tr/support.html",
+    "uk/index.html",
+    "uk/privacy.html",
+    "uk/support.html",
+    "ur-PK/index.html",
+    "ur-PK/privacy.html",
+    "ur-PK/support.html",
+    "vi/index.html",
+    "vi/privacy.html",
+    "vi/support.html",
+    "zh-Hans/index.html",
+    "zh-Hans/privacy.html",
+    "zh-Hans/support.html",
+    "zh-Hant/index.html",
+    "zh-Hant/privacy.html",
+    "zh-Hant/support.html"
+  ],
+  "rtl_locales": [
+    "ar-SA",
+    "he",
+    "ur-PK"
+  ],
+  "schema": "support-required-surfaces/v1",
+  "site_key": "unblurry-support",
+  "verified_app_store_urls": [
+    "https://apps.apple.com/app/id6780223070?pt=118326163&ct=sup_unblurry&mt=8",
+    "https://apps.apple.com/app/id6781808054?pt=118326163&ct=sup_unblurry&mt=8",
+    "https://apps.apple.com/app/id6782275018",
+    "https://apps.apple.com/app/id6782275018)**",
+    "https://apps.apple.com/app/id6792850916?pt=118326163&ct=sup_unblurry&mt=8",
+    "https://apps.apple.com/app/id6792856304?pt=118326163&ct=sup_unblurry&mt=8",
+    "https://apps.apple.com/app/id{app_id"
+  ]
+}

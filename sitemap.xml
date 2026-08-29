@@ -152,4 +152,21 @@
   <url><loc>https://alice51849.github.io/unblurry-support/zh-Hant/</loc><lastmod>2026-08-20</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://alice51849.github.io/unblurry-support/zh-Hant/privacy.html</loc><lastmod>2026-08-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://alice51849.github.io/unblurry-support/zh-Hant/support.html</loc><lastmod>2026-08-20</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<!-- surface-contract-routes:start -->
+  <url><loc>https://alice51849.github.io/unblurry-support/en-AU/</loc></url>
+  <url><loc>https://alice51849.github.io/unblurry-support/en-AU/privacy.html</loc></url>
+  <url><loc>https://alice51849.github.io/unblurry-support/en-AU/support.html</loc></url>
+  <url><loc>https://alice51849.github.io/unblurry-support/en-CA/</loc></url>
+  <url><loc>https://alice51849.github.io/unblurry-support/en-CA/privacy.html</loc></url>
+  <url><loc>https://alice51849.github.io/unblurry-support/en-CA/support.html</loc></url>
+  <url><loc>https://alice51849.github.io/unblurry-support/en-GB/</loc></url>
+  <url><loc>https://alice51849.github.io/unblurry-support/en-GB/privacy.html</loc></url>
+  <url><loc>https://alice51849.github.io/unblurry-support/en-GB/support.html</loc></url>
+  <url><loc>https://alice51849.github.io/unblurry-support/en-US/</loc></url>
+  <url><loc>https://alice51849.github.io/unblurry-support/en-US/privacy.html</loc></url>
+  <url><loc>https://alice51849.github.io/unblurry-support/en-US/support.html</loc></url>
+  <url><loc>https://alice51849.github.io/unblurry-support/or-IN/</loc></url>
+  <url><loc>https://alice51849.github.io/unblurry-support/or-IN/privacy.html</loc></url>
+  <url><loc>https://alice51849.github.io/unblurry-support/or-IN/support.html</loc></url>
+<!-- surface-contract-routes:end -->
 </urlset>
