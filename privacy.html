@@ -76,9 +76,9 @@
 <main class="wrap">
   <div class="doc">
     <h1>Privacy Policy</h1>
-    <div class="updated">Effective date: June 2026 · Unblurry</div>
+    <div class="updated">Effective date: June 2026 · Updated September 2026 (Android) · Unblurry</div>
 
-    <p><strong>Unblurry is designed to be private by default.</strong> The app enhances photos on your iPhone and does not collect, upload, sell, track, or analyze personal data. This policy explains, in plain language, exactly how it works.</p>
+    <p><strong>Unblurry is designed to be private by default.</strong> The app enhances photos on your device — iPhone, iPad, or an Android phone — and does not collect, upload, sell, track, or analyze personal data. This policy explains, in plain language, exactly how it works, and notes where the Android version works a little differently under the hood.</p>
 
     <h2>The short version</h2>
     <ul>
@@ -93,19 +93,20 @@
     <p>We do not collect, sell, or share any personal data. Unblurry does not include analytics, advertising, or tracking frameworks, and creates no user account.</p>
 
     <h2>Photo processing</h2>
-    <p>Photos you select for enhancement are processed locally using on‑device Apple frameworks such as PhotosUI / PhotoKit, Core Image / Metal, Vision and Accelerate / vImage. The AI super‑resolution model runs entirely on your device. Images are never uploaded by Unblurry.</p>
+    <p>Photos you select for enhancement are processed locally using on‑device Apple frameworks such as PhotosUI / PhotoKit, Core Image / Metal, Vision and Accelerate / vImage. The AI super‑resolution model runs entirely on your device. Images are never uploaded by Unblurry. <strong>On Android</strong>, the same AI mode runs the official open‑source Real‑ESRGAN model entirely on your device using ONNX Runtime Mobile, and the other enhancement modes use an on‑device Kotlin image pipeline instead of Apple's frameworks — nothing is ever uploaded, and the app makes no network request to run any of this.</p>
 
     <h2>Photos permission</h2>
     <ul>
       <li><strong>Photo Library</strong> access is used only so you can open photos to enhance and save your results. You can save enhanced photos back to your library when you choose to.</li>
       <li>You control this permission any time in iOS <strong>Settings → Privacy &amp; Security → Photos</strong>.</li>
+      <li><strong>On Android</strong>, photos are opened through the system Photo Picker, so no broad photo‑library permission is requested at all; you can review any permission the app does hold any time in Android <strong>Settings → Apps → Unblurry Pro → Permissions</strong>.</li>
     </ul>
 
     <h2>Data stored on your device</h2>
-    <p>The following stays on your iPhone and is never sent to us: your settings, selected theme and language; your free‑trial and usage counters; and your one‑time purchase status (managed by the system). Removing the app removes this data.</p>
+    <p>The following stays on your device — iPhone, iPad, or Android phone — and is never sent to us: your settings, selected theme and language; your free‑trial and usage counters; and your one‑time purchase status (managed by the system). Removing the app removes this data.</p>
 
     <h2>Purchases</h2>
-    <p>The optional one‑time unlock is processed by Apple through the App Store. We never see your payment details. Apple’s privacy policy governs that transaction, and restoring a purchase is handled by Apple.</p>
+    <p>The optional one‑time unlock is processed by Apple through the App Store. We never see your payment details. Apple’s privacy policy governs that transaction, and restoring a purchase is handled by Apple. <strong>On Android</strong>, the same one‑time unlock is processed by Google through Google Play Billing instead — we never see your payment details there either, and restoring a purchase is handled by Google Play.</p>
 
     <h2>Children</h2>
     <p>Unblurry is a general‑audience photo app and is not directed to children. It does not knowingly collect any personal information from anyone.</p>
