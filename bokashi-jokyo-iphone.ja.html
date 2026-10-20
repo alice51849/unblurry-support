@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>写真のぼかし除去を iPhone で：ピンぼけ・手ブレ・ノイズのぼかしを取る方法</title>
+<meta name="description" content="写真のぼかし除去を iPhone だけで行う方法。ピンぼけ・手ブレ・ノイズ・低解像度など原因別のモードの選び方、手順、取れるぼかしと取れないぼかし（後から入れたモザイク等）の違いを整理しました。">
+<link rel="canonical" href="https://open.cait518.cc/unblurry-support/bokashi-jokyo-iphone.ja.html">
+<meta property="og:title" content="写真のぼかし除去を iPhone で：ピンぼけ・手ブレ・ノイズのぼかしを取る方法">
+<meta property="og:description" content="写真のぼかし除去を iPhone だけで行う方法。ピンぼけ・手ブレ・ノイズ・低解像度など原因別のモードの選び方、手順、取れるぼかしと取れないぼかし（後から入れたモザイク等）の違いを整理しました。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://open.cait518.cc/unblurry-support/bokashi-jokyo-iphone.ja.html">
+<meta name="apple-itunes-app" content="app-id=6782275018">
+<style>
+:root{color-scheme:light dark;--bg:#fbfaf7;--fg:#1d1d1f;--muted:#5f6368;--line:rgba(128,128,128,.22);--accent:#2f6fde;--card:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#141416;--fg:#ececf0;--muted:#a3a3ab;--card:#1d1d21;--accent:#7aa7ff}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans","PingFang TC","Noto Sans CJK TC","Apple SD Gothic Neo",Roboto,sans-serif}
+a{color:var(--accent)}
+.helpdoc{max-width:820px;margin:0 auto;padding:28px 16px 64px}
+.helpdoc h1{font-size:clamp(26px,4.4vw,36px);line-height:1.3;margin:.2em 0 .4em}
+.helpdoc h2{font-size:clamp(19px,2.8vw,24px);margin:2.1em 0 .6em;scroll-margin-top:16px}
+.helpdoc h3{font-size:17px;margin:1.5em 0 .35em}
+.helpdoc .lede{font-size:17.5px;color:var(--muted);margin:0 0 1.4em}
+.helpdoc .hd-nav{display:flex;flex-wrap:wrap;gap:14px;font-size:14px;margin:0 0 20px}
+.helpdoc .hd-toc{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 8px;padding:0;list-style:none}
+.helpdoc .hd-toc a{display:inline-block;padding:5px 12px;border:1px solid var(--line);border-radius:999px;font-size:13.5px;text-decoration:none}
+.helpdoc .tbl{overflow-x:auto;margin:.8em 0}
+.helpdoc table{width:100%;border-collapse:collapse;font-size:15px}
+.helpdoc th,.helpdoc td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+.helpdoc th{font-weight:650;white-space:nowrap}
+.helpdoc .box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin:1em 0}
+.helpdoc .cta{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:2.4em 0 1em}
+.helpdoc .cta a.btn{display:inline-block;margin:6px 0;padding:11px 20px;border-radius:999px;background:var(--accent);color:#fff;font-weight:650;text-decoration:none}
+.helpdoc .hd-q{margin:1.4em 0 .3em;font-weight:650;font-size:16.5px}
+.helpdoc .hd-a{margin:0 0 .2em}
+.helpdoc .hd-note{font-size:13px;color:var(--muted);margin-top:2.6em;border-top:1px solid var(--line);padding-top:14px}
+.helpdoc ul,.helpdoc ol{padding-left:1.25em}
+.helpdoc li{margin:.3em 0}
+@media print{.hd-nav,.cta,.hd-toc{display:none}body{background:#fff;color:#000}}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "写真のぼかし除去を iPhone で：ピンぼけ・手ブレ・ノイズのぼかしを取る方法", "description": "写真のぼかし除去を iPhone だけで行う方法。ピンぼけ・手ブレ・ノイズ・低解像度など原因別のモードの選び方、手順、取れるぼかしと取れないぼかし（後から入れたモザイク等）の違いを整理しました。", "inLanguage": "ja", "mainEntityOfPage": "https://open.cait518.cc/unblurry-support/bokashi-jokyo-iphone.ja.html", "dateModified": "2026-10-20", "author": {"@type": "Organization", "@id": "https://open.cait518.cc/ios-app-guide/#organization", "name": "Lumi Studio", "url": "https://open.cait518.cc/ios-app-guide/about.html"}, "publisher": {"@type": "Organization", "@id": "https://open.cait518.cc/ios-app-guide/#organization", "name": "Lumi Studio", "url": "https://open.cait518.cc/ios-app-guide/about.html"}, "about": {"@type": "SoftwareApplication", "name": "Unblurry Pro：ぼやけ補正", "operatingSystem": "iOS", "applicationCategory": "MultimediaApplication", "url": "https://apps.apple.com/app/id6782275018"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "ja", "mainEntity": [{"@type": "Question", "name": "写真のぼかしは本当に除去できますか？", "acceptedAnswer": {"@type": "Answer", "text": "撮影時のピンぼけ、手ブレ、ノイズ、低解像度によるぼかしは、原因に合ったモードで目立たなくできることが多いです。強い手ブレは改善しても完全には戻りません。"}}, {"@type": "Question", "name": "モザイクや加工で入れたぼかしも取れますか？", "acceptedAnswer": {"@type": "Answer", "text": "後から加工で入れたぼかしやモザイクは、元の情報が塗りつぶされているため復元できません。Unblurry は撮影時に生まれたぼやけを補正するアプリです。"}}, {"@type": "Question", "name": "写真はサーバーにアップロードされますか？", "acceptedAnswer": {"@type": "Answer", "text": "いいえ。処理は 100% オンデバイスで、クラウドもアカウントも不要です。写真がスマホの外へ出ることはありません。"}}, {"@type": "Question", "name": "どのモードから試せばいいですか？", "acceptedAnswer": {"@type": "Answer", "text": "原因がわからないときは、まずオートクリアを試し、足りない部分をシャープ、ノイズ除去、ローライトなどで追い込むのが早いです。"}}, {"@type": "Question", "name": "小さい画像のぼかしも取れますか？", "acceptedAnswer": {"@type": "Answer", "text": "AI 超解像はニューラルモデルが端末上でディテールを再構築し、4× アップスケールはぼやけさせずに大きく拡大します。元にない情報は推定になるので、仕上がりは元画像と比べて確認してください。"}}, {"@type": "Question", "name": "無料でも使えますか？", "acceptedAnswer": {"@type": "Answer", "text": "毎日無料で写真を補正して保存できます。ウォーターマークなしの書き出しや 4× アップスケールなどは Unblurry Pro の一度の購入で解放されます。"}}]}</script>
+</head>
+<body>
+<p class="first-party-disclosure" data-first-party-disclosure="banner" role="note" style="margin:0;padding:8px 16px;background:#f3f4f6;color:#1f2937;border-bottom:1px solid #d1d5db;font-size:13px;line-height:1.5;text-align:center">当サイトは掲載アプリの開発者であるLumi Studioが運営し、自社アプリを紹介しています。</p>
+<main class="helpdoc">
+<nav class="hd-nav"><a href="./">サポートトップ</a><a href="help.ja.html">ヘルプ・よくある質問</a><a href="https://apps.apple.com/jp/app/id6782275018?pt=118326163&amp;ct=bm_unblurry_jp_seo&amp;mt=8">Unblurry Pro：ぼやけ補正</a><a href="https://play.google.com/store/apps/details?id=com.unblurry.app&amp;referrer=utm_source%3Dbm_unblurry_jp_seo%26utm_campaign%3Dunblurry" rel="noopener" data-ls-play="nav">Google Play</a></nav>
+<h1>写真のぼかし除去を iPhone で行う方法：取れるぼかし・取れないぼかしと手順</h1>
+<p class="lede"><strong>撮影時に生まれたぼかし（ピンぼけ、手ブレ、暗所のザラつき、圧縮による粗さ）は、原因に合った補正をかけることで目立たなくできます。</strong>一方で、編集アプリで後から入れたぼかしやモザイクは、元の情報が塗りつぶされているため、元どおりに戻すことはできません。このページでは、まずその違いを整理し、iPhone のアプリ Unblurry でぼかしを取る手順と、きれいに仕上げるコツを紹介します。</p>
+<p><strong>このページの内容</strong></p>
+<ul class="hd-toc"><li><a href="#chigai">「ぼかし除去」でできること・できないこと</a></li><li><a href="#mode">原因別：どのモードでぼかしを取るか</a></li><li><a href="#tejun">iPhone でぼかしを除去する手順</a></li><li><a href="#kotsu">ぼかしをきれいに取るコツ</a></li><li><a href="#pro">無料でできること、Unblurry Pro で増えること</a></li><li><a href="#faq">よくある質問</a></li></ul>
+<h2 id="chigai">「ぼかし除去」でできること・できないこと</h2>
+<div class="tbl"><table><thead><tr><th>ぼかしの種類</th><th>よくある例</th><th>除去できるか</th></tr></thead><tbody><tr><td>ピンぼけ</td><td>背景にピントが合って人物が甘い</td><td>シャープ補正で改善しやすい</td></tr><tr><td>手ブレ</td><td>輪郭が一方向に流れる、二重に見える</td><td>軽いものは改善しやすい。強いものは改善しても完全には戻らない</td></tr><tr><td>暗所ノイズ</td><td>夜の写真がザラザラ、色がまだら</td><td>ノイズ除去・ローライトで改善しやすい</td></tr><tr><td>低解像度・圧縮</td><td>SNS やメッセージで受け取って小さく粗い</td><td>AI 超解像・4× アップスケールで改善しやすい</td></tr><tr><td>加工で入れたぼかし・モザイク</td><td>顔や文字を隠すために後から入れたもの</td><td>元の情報が残っていないため復元できない</td></tr></tbody></table></div><p>補正は「元の写真にある情報を引き出す」ものです。AI 超解像はディテールを再構築しますが、元にない情報は推定になります。人の顔や書類の文字は、補正後に内容が変わっていないか必ず元画像と比べてください。</p>
+<h2 id="mode">原因別：どのモードでぼかしを取るか</h2>
+<p><strong>Unblurry</strong> は、ピントの甘い写真、手ブレした写真、ぼやけた写真を数秒でシャープにする iPhone アプリです。App Store の説明にある8つのモードを、ぼかしの原因に合わせて使い分けます。</p><div class="tbl"><table><thead><tr><th>モード</th><th>向いているぼかし</th></tr></thead><tbody><tr><td>オートクリア</td><td>日常のぼやけをワンタップで補正。原因がわからないときの最初の一手</td></tr><tr><td>シャープ</td><td>甘いピントや手ブレ</td></tr><tr><td>ノイズ除去</td><td>粒状感や高 ISO ノイズ</td></tr><tr><td>ローライト</td><td>暗い写真を明るくし、細部を復元</td></tr><tr><td>書類</td><td>文字、スキャン、ホワイトボード</td></tr><tr><td>AI 超解像</td><td>小さく粗い画像。ニューラルモデルが端末上でディテールを再構築</td></tr><tr><td>4× アップスケール</td><td>ぼやけさせずに大きく拡大</td></tr><tr><td>ポートレート＆復元</td><td>顔の補正、古い写真の復元</td></tr></tbody></table></div>
+<h2 id="tejun">iPhone でぼかしを除去する手順</h2>
+<ol><li><strong>写真を選ぶ</strong>：ぼかしを取りたい一枚を選びます。元の写真はそのまま残ります。</li><li><strong>オートクリアをかける</strong>：日常のぼやけはこれで十分なことが多いです。</li><li><strong>原因別のモードを足す</strong>：手ブレやピンぼけはシャープ、ザラつきはノイズ除去、暗い写真はローライト、文字は書類、小さい画像は AI 超解像を選びます。</li><li><strong>ビフォー／アフターで確認</strong>：スライダーで比べ、長押しで元画像を確認します。やりすぎて不自然になっていないかをここで見ます。</li><li><strong>保存する</strong>：毎日無料で写真を補正して保存できます。ウォーターマークなしや元のフル解像度での書き出しは Unblurry Pro（一度の購入）で解放されます。</li></ol><p>処理はすべて iPhone 上で完結します。クラウド不要、アカウント不要で、写真がスマホの外へ出ることはありません。原因の見分け方をもっと詳しく知りたい場合は<a href="fix-blurry-photo-iphone.ja.html">ぼやけた写真を修正する方法</a>も参考にしてください。</p>
+<h2 id="kotsu">ぼかしをきれいに取るコツ</h2>
+<ul><li><strong>元データを使う</strong>：メッセージアプリで圧縮された画像より、撮影した元の写真のほうが補正の余地が大きいです。</li><li><strong>一度に全部かけない</strong>：オートクリアのあと、足りない部分を1モードずつ足すと自然に仕上がります。</li><li><strong>拡大は最後に</strong>：ノイズ除去やシャープを先に済ませてから 4× アップスケールにかけると、ノイズまで拡大せずに済みます。</li><li><strong>暗い写真はローライトから</strong>：明るくして細部が見えてからシャープをかけると補正しやすくなります。</li><li><strong>結果は必ず見比べる</strong>：長押しで元画像を表示し、顔の形や文字が変わっていないか確認します。</li></ul>
+<h2 id="pro">無料でできること、Unblurry Pro で増えること</h2>
+<p>毎日無料で写真を補正して保存できます。Unblurry Pro を一度購入すると、次のものが解放されます。</p><ul><li>ウォーターマークなしの書き出し</li><li>元のフル解像度での書き出し</li><li>4× アップスケール、ポートレート＆復元モード</li><li>毎日の無制限保存</li><li>すべてのプレミアムテーマと、今後追加されるすべてのモード</li></ul><p>買い切りでサブスクはなく、広告もトラッキングもありません。価格はアプリ内とお住まいの国の App Store で確認できます。</p>
+<div class="cta">
+<p><strong>iPhone でそのまま試すなら</strong> Unblurry は、ピンぼけ・手ブレ・ノイズ・低解像度のぼかしを8つのモードで iPhone の中だけで補正します。長押しで元画像と比べてから保存できます。</p>
+<p><a class="btn" href="https://apps.apple.com/jp/app/id6782275018?pt=118326163&amp;ct=bm_unblurry_jp_seo&amp;mt=8">App Store で Unblurry Pro：ぼやけ補正 を見る</a></p>
+<p><strong>Android をお使いですか？</strong></p>
+<p><a class="btn" href="https://play.google.com/store/apps/details?id=com.unblurry.app&amp;referrer=utm_source%3Dbm_unblurry_jp_seo%26utm_campaign%3Dunblurry" rel="noopener" data-ls-play="cta">Google Play で Unblurry Pro：ぼやけ補正 を見る</a></p>
+<p>Unblurry Pro：ぼやけ補正 をお使いの方は、App Store で評価やレビューを書くことができます。 <a href="https://apps.apple.com/app/id6782275018?action=write-review">レビューを書く</a></p>
+</div>
+<h2 id="faq">よくある質問</h2>
+<p class="hd-q">写真のぼかしは本当に除去できますか？</p>
+<p class="hd-a">撮影時のピンぼけ、手ブレ、ノイズ、低解像度によるぼかしは、原因に合ったモードで目立たなくできることが多いです。強い手ブレは改善しても完全には戻りません。</p>
+<p class="hd-q">モザイクや加工で入れたぼかしも取れますか？</p>
+<p class="hd-a">後から加工で入れたぼかしやモザイクは、元の情報が塗りつぶされているため復元できません。Unblurry は撮影時に生まれたぼやけを補正するアプリです。</p>
+<p class="hd-q">写真はサーバーにアップロードされますか？</p>
+<p class="hd-a">いいえ。処理は 100% オンデバイスで、クラウドもアカウントも不要です。写真がスマホの外へ出ることはありません。</p>
+<p class="hd-q">どのモードから試せばいいですか？</p>
+<p class="hd-a">原因がわからないときは、まずオートクリアを試し、足りない部分をシャープ、ノイズ除去、ローライトなどで追い込むのが早いです。</p>
+<p class="hd-q">小さい画像のぼかしも取れますか？</p>
+<p class="hd-a">AI 超解像はニューラルモデルが端末上でディテールを再構築し、4× アップスケールはぼやけさせずに大きく拡大します。元にない情報は推定になるので、仕上がりは元画像と比べて確認してください。</p>
+<p class="hd-q">無料でも使えますか？</p>
+<p class="hd-a">毎日無料で写真を補正して保存できます。ウォーターマークなしの書き出しや 4× アップスケールなどは Unblurry Pro の一度の購入で解放されます。</p>
+
+<div class="box">補正の仕上がりは元の写真の状態によって異なり、失われたディテールをすべて復元できるわけではありません。このページの機能説明は App Store の掲載内容をもとにしています。無料で使える範囲と Unblurry Pro で解放される内容は、掲載時点の説明に基づきます。</div>
+<h2 id="related">関連ガイド</h2>
+<ul><li><a href="fix-blurry-photo-iphone.ja.html">ぼやけた写真を修正する方法：原因別に iPhone でくっきり直す</a></li><li><a href="unblurry-free-vs-pro.ja.html">Unblurry の無料と Pro の違い：買い切りを買う価値がある人・ない人</a></li></ul>
+<p class="hd-note">このページは Unblurry Pro：ぼやけ補正 の開発者が AI の補助を受けて作成し、App Store の掲載内容と照合しました。最終更新：2026-10-20。</p>
+</main>
+</body>
+</html>
