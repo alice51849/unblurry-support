@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>写真のぼやけチェッカー：ピントが合っているかをブラウザで確かめる | Unblurry</title>
+<meta name="description" content="写真を1枚選ぶと、ピントの合い具合をブラウザの中だけで数値にして「くっきり／ややぼやけ／ぼやけ」で表示します。写真はアップロードされません。数値は参考値で、計算方法と限界もこのページに書いています。">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://open.cait518.cc/unblurry-support/ja/boke-checker.html">
+<meta name="apple-itunes-app" content="app-id=6782275018">
+<style>
+:root{--bg:#fff;--fg:#1d1d1f;--muted:#5f6368;--line:#e3e3e8;--accent:#3b6df0;--card:#f7f7f9;--ok:#1e7d43;--mid:#a86400;--ng:#c0392b}
+@media (prefers-color-scheme:dark){:root{--bg:#111214;--fg:#f2f2f5;--muted:#a7a9b0;--line:#2c2e33;--accent:#7aa2ff;--card:#1a1b1e;--ok:#5cc98a;--mid:#f0b45a;--ng:#ff8a7a}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.7 -apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans",sans-serif}
+main{max-width:760px;margin:0 auto;padding:28px 16px 48px}
+h1{font-size:1.5rem;line-height:1.4} h2{font-size:1.1rem;line-height:1.5;margin:1.8em 0 .4em} .eyebrow{color:var(--muted);font-size:.9rem;margin:0}
+.note{color:var(--muted);font-size:.92rem}
+.box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:1em 0}
+.pick{display:inline-block;padding:12px 20px;border-radius:14px;background:var(--accent);color:#fff;font-weight:700;cursor:pointer}
+.pick input{position:absolute;width:1px;height:1px;opacity:0}
+#preview{display:block;max-width:100%;height:auto;margin:12px 0 0;border-radius:8px}
+#verdict{font-size:1.35rem;font-weight:700;margin:.6em 0 .1em}
+.v-ok{color:var(--ok)} .v-mid{color:var(--mid)} .v-ng{color:var(--ng)}
+.meter{height:10px;border-radius:5px;background:var(--line);overflow:hidden;margin:.4em 0}
+.meter span{display:block;height:100%;width:0;background:var(--accent)}
+.pro{font-size:.8rem;border:1px solid var(--line);border-radius:6px;padding:0 6px;margin-left:4px;color:var(--muted);white-space:nowrap}
+.tbl{overflow-x:auto} table{width:100%;border-collapse:collapse;font-size:15px} th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+.cta{display:inline-block;margin:8px 10px 0 0;padding:12px 20px;border-radius:14px;background:var(--accent);color:#fff;text-decoration:none;font-weight:700}
+.cta.alt{background:transparent;color:var(--accent);border:1px solid var(--line)} a{color:var(--accent)}
+[hidden]{display:none}
+</style>
+<!-- ls-clickbeacon:start -->
+<script>(function(){var E='https://office.cait518.cc/api/click';function h(e){try{var t=e.target,l=t&&t.closest&&t.closest('a[href]');if(!l||!navigator.sendBeacon)return;var u=new URL(l.href,location.href),s,k,c,q=u.searchParams;if(u.hostname==='apps.apple.com'){s='apple';k=(u.pathname.match(/\/id(\d+)/)||[])[1]||'';c=q.get('ct')||''}else if(u.hostname==='play.google.com'){s='play';var r=new URLSearchParams(q.get('referrer')||'');k=r.get('utm_campaign')||q.get('id')||'';c=r.get('utm_source')||''}else return;navigator.sendBeacon(E,JSON.stringify({p:location.pathname.slice(0,200),a:k.slice(0,100),ct:c.slice(0,64),s:s}))}catch(_){}}document.addEventListener('click',h,true);document.addEventListener('auxclick',h,true)})();</script>
+<!-- ls-clickbeacon:end -->
+</head>
+<body>
+<p class="first-party-disclosure" data-first-party-disclosure="banner" role="note" style="margin:0;padding:8px 16px;background:#f3f4f6;color:#1f2937;border-bottom:1px solid #d1d5db;font-size:13px;line-height:1.5;text-align:center">当サイトは掲載アプリの開発者であるLumi Studioが運営し、自社アプリを紹介しています。</p>
+<main>
+<p class="eyebrow">Unblurry · 無料ツール</p>
+<h1>写真のぼやけチェッカー</h1>
+<p>スマホの小さな画面だと、ピントが合っているかどうかは意外とわかりません。印刷してから、あるいはパソコンで開いてから「少しぼけていた」と気づくこともあります。このページでは、写真を 1 枚選ぶとピントの合い具合を数値にして、3 段階で表示します。</p>
+<p><strong>写真はアップロードされません（この端末の中だけで計算）。</strong>計算はこのページに書かれた JavaScript がブラウザの中で行い、写真のデータをどこかへ送る処理はありません。</p>
+
+<div class="box">
+<label class="pick">写真を選ぶ<input type="file" id="file" accept="image/*"></label>
+<p class="note" id="status" style="margin:.6em 0 0">JPEG、PNG など、ブラウザで表示できる形式に対応しています。</p>
+<div id="result" hidden>
+<p id="verdict"></p>
+<div class="meter" aria-hidden="true"><span id="bar"></span></div>
+<p id="detail" style="margin:.2em 0"></p>
+<p id="advice" style="margin:.4em 0 0"></p>
+<p id="caution" class="note" hidden></p>
+<canvas id="preview" aria-label="選んだ写真。枠の部分がいちばんくっきりしている場所です"></canvas>
+<p class="note" style="margin:.3em 0 0">枠で囲んだ部分が、写真の中でいちばんくっきりしていた場所です。</p>
+</div>
+</div>
+
+<h2>判定の目安</h2>
+<div class="tbl"><table>
+<tr><th>くっきり</th><td>スコア 150 以上。いちばんくっきりした部分には細かい輪郭がはっきり残っています。</td></tr>
+<tr><th>ややぼやけ</th><td>スコア 50〜149。スマホの画面では気にならなくても、拡大や印刷で甘さが見えることがあります。</td></tr>
+<tr><th>ぼやけ</th><td>スコア 50 未満。写真のどこを見ても輪郭がなだらかで、ピンぼけか手ブレの可能性が高い状態です。</td></tr>
+</table></div>
+<p class="note">この区切りは、手元のサンプル画像に段階的にぼかしをかけて決めた参考値です。カメラ、レンズ、光の量、写っているものによって数値は変わるので、同じ場面で撮った写真どうしを比べる使い方がいちばん確かです。</p>
+
+<h2>どうやって計算しているか</h2>
+<p>写真を長い辺 512 ピクセルに縮小し、グレースケールに変えてから、隣り合う画素との明るさの差（ラプラシアン）を全体で計算します。ピントが合った写真ほど輪郭で明るさが急に変わるので、この値のばらつき（分散）が大きくなります。</p>
+<p>写真を縦横 4 つずつ、16 のブロックに分け、ブロックごとに分散を出して、いちばん大きいブロックの値をスコアにしています。背景をぼかしたポートレートでも、ピントの合った顔の部分で判定できるようにするためです。写真全体の値も参考に表示します。</p>
+
+<h2>数値が当てにならないとき</h2>
+<ul>
+<li>空、壁、霧、夜景の暗い部分など、もともと模様の少ない写真は、ピントが合っていても低く出ます。</li>
+<li>暗い場所で撮った写真のザラザラしたノイズは、細かい輪郭と区別がつかず、高く出ることがあります。</li>
+<li>スクリーンショットや文字だけの画像は、写真とは別物として考えてください。</li>
+<li>縮小してから計算するので、等倍で見たときのわずかな甘さまでは拾えません。</li>
+</ul>
+
+<h2>ぼやけていたら</h2>
+<p>撮り直せる場面なら、撮り直すのがいちばんです。もう撮り直せない写真は、iPhone アプリの Unblurry で補正できます。モードは 8 つあり、ピントの甘さや手ブレには「シャープ」、暗い写真には「ローライト」、粒状のノイズには「ノイズ除去」、書類やホワイトボードには「書類」を使います。補正前と補正後はスライダーで比べられ、長押しで元の画像を確認できます。処理は iPhone の中で行われ、クラウドもアカウントも使いません。</p>
+<div class="tbl"><table>
+<tr><th>無料</th><td>毎日、写真を補正して保存できます。無料で保存した写真にはウォーターマークが入ります。</td></tr>
+<tr><th>Unblurry Pro<br>（買い切り）</th><td>ウォーターマークなし、元のフル解像度での書き出し、4× アップスケール<span class="pro">Pro</span>、ポートレート＆復元モード<span class="pro">Pro</span>、毎日の無制限保存、すべてのプレミアムテーマ。サブスクではなく、一度の購入で使えます。</td></tr>
+</table></div>
+<p class="note">補正の仕上がりは元の写真の状態によって異なり、失われたディテールをすべて復元できるわけではありません。</p>
+<p>ぼやけの原因ごとの直し方は <a href="../fix-blurry-photo-iphone.ja.html">ぼやけた写真を修正する方法：原因別に iPhone でくっきり直す</a> にまとめています。</p>
+<p><a class="cta" href="https://apps.apple.com/jp/app/id6782275018?pt=118326163&amp;ct=sup_unblurry_ja_tool1121&amp;mt=8">App Storeで入手</a><a class="cta alt" href="https://play.google.com/store/apps/details?id=com.unblurry.app&amp;referrer=utm_source%3Dsup_unblurry_ja_tool1121%26utm_medium%3Dsupport">Google Playで入手</a></p>
+<p class="note">このページが外部へ送るのは、App Store／Google Play へのリンクが押されたときの記録（このページのパス、アプリの ID、リンクの識別コード）だけです。写真のデータは含まれません。</p>
+<p><a href="./">サポートトップへ</a></p>
+</main>
+<p style="margin:24px auto 0;font-size:12px;opacity:.72;text-align:center"><a href="https://apps.apple.com/app/id6782275018?action=write-review" rel="noopener" data-app-store-review="owner" style="color:inherit;text-decoration:underline">このアプリをお使いですか？App Store で評価・レビューできます</a></p>
+<script id="boke-checker">
+(function(){
+  var SIZE = 512, GRID = 4, SHARP = 150, SOFT = 50;
+  var fileEl = document.getElementById('file');
+  var statusEl = document.getElementById('status');
+  var resultEl = document.getElementById('result');
+  var canvas = document.getElementById('preview');
+
+  function laplacianScore(img){
+    var w = img.naturalWidth, h = img.naturalHeight;
+    var s = Math.min(1, SIZE / Math.max(w, h));
+    var cw = Math.max(8, Math.round(w * s)), ch = Math.max(8, Math.round(h * s));
+    canvas.width = cw; canvas.height = ch;
+    var ctx = canvas.getContext('2d');
+    ctx.drawImage(img, 0, 0, cw, ch);
+    var px = ctx.getImageData(0, 0, cw, ch).data;
+    var g = new Float32Array(cw * ch), i, x, y;
+    var sum = 0, sum2 = 0;
+    for (i = 0; i < cw * ch; i++) {
+      var v = 0.299 * px[i * 4] + 0.587 * px[i * 4 + 1] + 0.114 * px[i * 4 + 2];
+      g[i] = v; sum += v; sum2 += v * v;
+    }
+    var n0 = cw * ch, mean = sum / n0, contrast = Math.sqrt(Math.max(0, sum2 / n0 - mean * mean));
+    var tS = new Float64Array(GRID * GRID), tS2 = new Float64Array(GRID * GRID), tN = new Float64Array(GRID * GRID);
+    var aS = 0, aS2 = 0, aN = 0;
+    for (y = 1; y < ch - 1; y++) {
+      var ty = Math.min(GRID - 1, Math.floor(y * GRID / ch));
+      for (x = 1; x < cw - 1; x++) {
+        var k = y * cw + x;
+        var l = g[k - 1] + g[k + 1] + g[k - cw] + g[k + cw] - 4 * g[k];
+        var t = ty * GRID + Math.min(GRID - 1, Math.floor(x * GRID / cw));
+        tS[t] += l; tS2[t] += l * l; tN[t]++;
+        aS += l; aS2 += l * l; aN++;
+      }
+    }
+    var best = 0, bestT = 0;
+    for (t = 0; t < GRID * GRID; t++) {
+      if (!tN[t]) continue;
+      var m = tS[t] / tN[t], vr = tS2[t] / tN[t] - m * m;
+      if (vr > best) { best = vr; bestT = t; }
+    }
+    var am = aS / aN;
+    return { best: best, all: aS2 / aN - am * am, tile: bestT, w: cw, h: ch, contrast: contrast, ctx: ctx };
+  }
+
+  function show(r){
+    var score = Math.round(r.best), all = Math.round(r.all);
+    var v = document.getElementById('verdict'), adv = document.getElementById('advice');
+    if (score >= SHARP) {
+      v.textContent = 'くっきり'; v.className = 'v-ok';
+      adv.textContent = 'ピントは合っているようです。拡大して見たいところが枠の外にある場合は、その部分も目で確かめてください。';
+    } else if (score >= SOFT) {
+      v.textContent = 'ややぼやけ'; v.className = 'v-mid';
+      adv.textContent = 'スマホの画面では気にならない程度かもしれません。印刷や大きな画面で見る予定があるなら、拡大して輪郭を確かめてください。';
+    } else {
+      v.textContent = 'ぼやけ'; v.className = 'v-ng';
+      adv.textContent = 'どの部分も輪郭がなだらかです。撮り直せるなら撮り直すのが確実です。難しい場合は、補正を試してみる手もあります。';
+    }
+    document.getElementById('bar').style.width = Math.min(100, score / 3) + '%';
+    document.getElementById('detail').textContent = 'スコア ' + score + '（いちばんくっきりした部分）／ 写真全体 ' + all;
+    var c = document.getElementById('caution');
+    if (r.contrast < 25) {
+      c.textContent = 'この写真は明暗の差や模様が少ないため、スコアが低めに出ている可能性があります。';
+      c.hidden = false;
+    } else { c.hidden = true; }
+    var tx = r.tile % GRID, ty = Math.floor(r.tile / GRID);
+    var x0 = Math.floor(tx * r.w / GRID), y0 = Math.floor(ty * r.h / GRID);
+    var x1 = Math.floor((tx + 1) * r.w / GRID), y1 = Math.floor((ty + 1) * r.h / GRID);
+    r.ctx.lineWidth = 3; r.ctx.strokeStyle = '#ffd400';
+    r.ctx.strokeRect(x0 + 1.5, y0 + 1.5, x1 - x0 - 3, y1 - y0 - 3);
+    resultEl.hidden = false;
+    statusEl.textContent = '計算はこの端末の中で終わりました。別の写真も続けて選べます。';
+  }
+
+  fileEl.addEventListener('change', function(){
+    var f = fileEl.files && fileEl.files[0];
+    if (!f) return;
+    statusEl.textContent = '計算しています…';
+    var url = URL.createObjectURL(f);
+    var img = new Image();
+    img.onload = function(){
+      try { show(laplacianScore(img)); }
+      catch (e) { statusEl.textContent = 'この写真は計算できませんでした。別の形式（JPEG など）で試してください。'; }
+      URL.revokeObjectURL(url);
+    };
+    img.onerror = function(){
+      statusEl.textContent = 'このブラウザでは開けない形式でした。JPEG や PNG に書き出してから選んでください。';
+      URL.revokeObjectURL(url);
+    };
+    img.src = url;
+  });
+})();
+</script>
+</body>
+</html>
